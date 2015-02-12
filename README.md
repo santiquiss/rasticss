@@ -1,4 +1,4 @@
-![Rasti CSS](http://santiquiss.com/rasticss/logo-github.png?1)
+![Rasti CSS](http://santiquiss.com/rasticss/logo-github.png?2)
 
 **Rasti CSS** is a web UI Framework full of reusable building blocks. It's built using [LESS](http://lesscss.org/) as a CSS preprocessor and [jQuery](http://jquery.com/) for component behaviour. We &hearts; [Bootstrap](http://getbootstrap.com/), and most of this framework is based on it, but with several differences and more components, to make modern websites with modern patterns. Created by [@santiquiss](http://twitter.com/santiquiss).
 
