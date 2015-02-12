@@ -4,21 +4,28 @@
 
 # Coding Conventions
 
-> "Discipline is your only defense in terms of maintainability."
+> "Every line of code should appear to be written by a single person, no matter the number of contributors."
 
-We like conventions, they help make big projects happen. It's very important to start with the conventions and help everyone involved in the project to follow them. Sometimes we even forget to follow our own conventions. That's why we establish the guidelines used in this framework before anything else.
+It's very important to start with the conventions and help everyone involved in the project to follow them. Sometimes we even forget to follow our own conventions. That's why we establish the guidelines used in this framework before anything else.
 
-The following rules refer to HTML, CSS, JS and LESS. If you are not familiar with LESS, we recommend reading the [documentation](http://lesscss.org/) before continuing.
+The following rules refer to HTML, CSS, JS and LESS (If you are not familiar with LESS, we recommend reading the [documentation](http://lesscss.org/) before continuing).
 
 ## The Basics
 
-+ All the names of the elements in the framework are in **english**.
-+ Tab size is **2 spaces**.
-+ **Id**, **class** and **file names** are lowercase with words separated by a dash.
++ **Rasti CSS** follows [this excellent guidelines](http://codeguide.co/) written by [@mdo](https://twitter.com/mdo).
++ **JS** code should follow [this guidelines](https://github.com/MatiasArriola/idiomatic.js) written by [@rwaldron](http://twitter.com/rwaldron) (and others).
+
+## Base Elements
+
+Base html elements like `h1`, `h2`, `p`, `input`, etc, have a default style defined on the framework via [normalize.css](http://necolas.github.io/normalize.css/) to deal with browser inconsistencies. **Any other additional styles to this elements is applied via a class**. `div` and `span` elements should never be directly styled.
+
+## Say NO to IDs. We &hearts; classes
+
+IDs are **prohibited**, they have no advantage over classes. Broken behavior due to ID collisions are hard to track down and annoying.
 
 ## The BEM Method
 
-We follow the [BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) (block, element, modifier) naming methodology. Why? Further reading in the [Smashing Book #3](https://shop.smashingmagazine.com/smashing-book-4-new-perspectives-on-web-design.html?pk_campaign=front-page-shop).
+We follow the [BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) (block, element, modifier) naming methodology. Why? Because it helps to identify the purpose of a class by just looking at the name. Further reading in the [Smashing Book #3](https://shop.smashingmagazine.com/smashing-book-4-new-perspectives-on-web-design.html?pk_campaign=front-page-shop).
 
 ```css
 /* Block */
@@ -31,7 +38,7 @@ We follow the [BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head
 .main-menu__item--disabled
 ```
 
-All the CSS declarations must be in the same level.
+HTML Structure
 ```html
 <ul class="main-menu">
   <li class="main-menu__item">
@@ -44,6 +51,8 @@ All the CSS declarations must be in the same level.
   </li>
 </ul>
 ```
+
+All the CSS declarations must be in the same level.
 ```css
 .main-menu {}
 .main-menu__item {}
@@ -52,8 +61,6 @@ All the CSS declarations must be in the same level.
 .main-menu__text {}
 ```
 
-## Say NO to IDs, we &hearts; classes
 
-IDs are **prohibited**, they have no advantage over classes. Broken behavior due to ID collisions are hard to track down and annoying.
 
 
