@@ -61,6 +61,12 @@ All the CSS declarations must be in the same level.
 .main-menu__text {}
 ```
 
+## Color
+## Z-index
+## Font
+## Media Queries
+## Responsive
+
 
 
 
