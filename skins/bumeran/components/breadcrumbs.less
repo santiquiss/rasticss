@@ -1,0 +1,21 @@
+.breadcrumbs {
+  padding: 15px 0;
+  list-style: none;
+  margin-bottom: 0;
+
+  > li {
+    display: inline-block;
+    position: relative;
+
+    + li:before {
+      content: "\e60a\00a0"; // Unicode space added since inline-block means non-collapsing white-space
+      font-family: @icon-font-name;
+      padding: 0 3px;
+      color: #222;
+      position: relative;
+      bottom: -1px;
+      font-size: 13px;
+    }
+  }
+
+}

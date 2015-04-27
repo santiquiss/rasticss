@@ -1,0 +1,319 @@
+.mycv__section-header {
+  .clearfix();
+  padding: 14px 0 8px;
+  @media (min-width: @screen-sm-min) {
+    padding: 20px 0 10px
+  }
+}
+.mycv__section-edit-btn {
+  float: right;
+  margin-left: 10px;
+  &.btn--default {
+    background: rgba(255, 255, 255, 0.5);
+    &:hover {
+      background: @btn-default-bg-hover;
+    }
+  }
+}
+.mycv__section-title {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.1em;
+  padding-top: 5px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mycv__section-body {
+  display: block;
+  background: #fff;
+  border: 1px solid #E6E6E6;
+  border-width: 1px 0;
+  padding: 10px 0;
+  margin: 0 -15px;
+  @media (min-width: @screen-sm-min) {
+    margin: 0;
+    border-width: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  &.mycv__section-body--empty {
+    padding: 20px 15px;
+    color: #ccc;
+    text-align: center;
+    font-weight: 300;
+    strong {
+      font-weight: 300;
+      text-decoration: underline;
+      color: #666;
+    }
+  }
+  &.mycv__section-body--edit {
+    padding: 10px 15px 20px;
+  }
+}
+.mycv__profile-photo {
+  border-radius: 100%;
+  width: 60px;
+  @media (min-width: @screen-sm-min) {
+    width: 86px;
+  }
+  @media (min-width: @screen-lg-min) {
+    width: 95px;
+  }
+}
+.mycv__user-name {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.1em;
+  @media (min-width: @screen-lg-min) {
+    font-size: 28px;
+  }
+}
+.mycv__personal-data-table {
+  width: 100%;
+  tr {
+    border-top: 1px solid #E6E6E6;
+    td, th {
+      padding: 3px 15px 2px;
+    }
+    td {
+      padding-left: 0;
+      width: 100%;
+    }
+    th {
+      font-size: 14px;
+      font-weight: 300;
+      color: #666;
+      white-space: nowrap;
+    }
+  }
+  thead {
+    tr { border: none; }
+    th, td {
+      padding-bottom: 10px;
+    }
+    th {
+      text-align: center;
+    }
+  }
+}
+.mycv__address-container {
+  display: block;
+  padding-left: 40px;
+  position: relative;
+  &:after {
+    position: absolute;
+    top: -4px;
+    left: 8px;
+    content: "\e652";
+    font-family: @icon-font-name;
+    font-size: 28px;
+    color: #FF465D;
+  }
+}
+.mycv__address-street {
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+}
+.mycv__address-locality {
+  display: block;
+  color: #222;
+}
+.mycv__timeline-group {
+  display: block;
+  position: relative;
+  padding-left: 90px;
+  &:hover {
+    text-decoration: none;
+  }
+  &:last-child {
+    margin-bottom: 6px;
+    .mycv__timeline-subtitle { padding-bottom: 0; }
+    .mycv__timeline-data {
+      &:before { display: none; }
+      &:after { bottom: 1px; }
+    }
+    .mycv__timeline-start-date { bottom: -2px; }
+  }
+}
+.mycv__timeline-start-date,
+.mycv__timeline-end-date {
+  position: absolute;
+  left: 0;
+  width: 90px;
+  text-align: right;
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+  padding-right: 13px;
+}
+.mycv__timeline-end-date {
+  top: 1px;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background: #FF465D;
+    top: 1px;
+    right: -11px;
+    z-index: @zindex-timeline-red-dot;
+    border-radius: 10px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    top: 3px;
+    right: -9px;
+    z-index: @zindex-timeline-white-dot;
+    border-radius: 10px;
+  }
+}
+.mycv__timeline-start-date {
+  bottom: 14px;
+}
+.mycv__timeline-data {
+  position: relative;
+  display: block;
+  padding-left: 22px;
+  padding-right: 10px;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    background: #FF465D;
+    width: 3px;
+    top: 5px;
+    bottom: 17px;
+    border-radius: 10px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    background: #eee;
+    width: 3px;
+    top: 5px;
+    bottom: -10px;
+    border-radius: 10px;
+  }
+}
+.mycv__timeline-title {
+  font-size: 20px;
+  line-height: 1.1em;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 4px;
+}
+.mycv__timeline-subtitle {
+  font-size: 17px;
+  line-height: 1.1em;
+  display: block;
+  padding-bottom: 15px;
+  color: #222;
+}
+.mycv__section-body-title {
+  display: block;
+  padding: 0 15px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.2em;
+  margin-bottom: 6px;
+}
+.mycv__section-body-text {
+  display: block;
+  font-weight: 17px;
+  color: #222;
+  font-weight: 300;
+  padding: 0 15px;
+}
+.mycv__language {
+  display: block;
+  padding: 10px 0;
+  .clearfix();
+  &:hover {
+    text-decoration: none;
+  }
+  &:first-child {
+    margin-top: -10px;
+  }
+  &:last-child {
+    margin-bottom: -10px;
+  }
+  & + & {
+    border-top: 1px solid #E6E6E6;
+  }
+  background: url(skins/bumeran/img/generic-language.png) no-repeat 12px center;
+  background-size: 32px 32px;
+  &.mycv_language--english { background-image: url(skins/bumeran/img/english-flag.png); }
+  &.mycv_language--portuguese { background-image: url(skins/bumeran/img/portuguese-flag.png); }
+}
+.mycv__language-title {
+  width: 175px;
+  float: left;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 58px;
+  padding-right: 10px;
+  line-height: 42px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mycv__language-levels {
+  display: block;
+  padding-left: 175px;
+}
+.mycv__language-level {
+  display: block;
+  color: #B8B8B8;
+  font-weight: 300;
+  strong {
+    padding-left: 4px;
+    font-weight: 300;
+    color: #2D2D2D;
+  }
+}
+.mycv_additional-knowledge {
+  display: block;
+  padding: 10px 0;
+  &:hover {
+    text-decoration: none;
+  }
+  &:first-child {
+    margin-top: -10px;
+  }
+  &:last-child {
+    margin-bottom: -10px;
+  }
+  & + & {
+    border-top: 1px solid #E6E6E6;
+  }
+}
+
+// CV Edition styles
+.mycv__edit-profile-photo-container {
+  padding-top: 5px;
+  text-align: center;
+  min-width: 60px;
+}
+.mycv__edit-profile-photo-btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2em;
+  padding-top: 9px;
+  @media (min-width: @screen-md-min) {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "logged" : false,
+  "names" : "Jazmin",
+  "lastNames": "Reale",
+  "photoUrl": "fotos/Jazmin.jpg",
+  "email": "user@gmail.com",
+  "dateOfBirth": "55/55/55",
+  "age": "22",
+  "maritalStatus": "Soltera",
+  "documentType": "DNI",
+  "documentNumber": "11.111.111",
+  "mainTelephoneNumber": "11 55555555",
+  "addressStreet": "Cabrera 5354",
+  "addressLocality": "Palermo, CABA",
+  "workExperiences":[
+    {
+      "title": "Administrativo contable",
+      "companyName": "Bumeran.com",
+      "dateStart": "Mar 2012",
+      "dateEnd": "Presente"
+    },
+    {
+      "title": "Administrativo contable",
+      "companyName": "Bumeran.com",
+      "dateStart": "Abr 2009",
+      "dateEnd": "Mar 2012"
+    }
+  ],
+  "studies":[
+    {
+      "title": "Contador",
+      "institution": "Universidad de Buenos Aires",
+      "dateStart": "Mar 2003",
+      "dateEnd": "Dic 2009"
+    }
+  ],
+  "languages":[
+    {
+      "codeName": "english",
+      "name": "Inglés",
+      "oralLevel": "Avanzado",
+      "writtenLevel": "Avanzado"
+    },
+    {
+      "codeName": "portuguese",
+      "name": "Portugués",
+      "oralLevel": "Básico",
+      "writtenLevel": "Básico"
+    }
+  ],
+  "additionalKnowledges": [
+    {
+      "title": "Administración",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis urna fermentum, sagittis eros sed, porta arcu. Cras vulputate urna lorem, tempor lobortis ligula pharetra ut. Integer vel nibh interdum, venenatis nunc in, sodales nisl. Donec cursus sed eros suscipit malesuada."
+    }
+  ],
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis urna fermentum, sagittis eros sed, porta arcu. Cras vulputate urna lorem, tempor lobortis ligula pharetra ut. Integer vel nibh interdum, venenatis nunc in, sodales nisl. Donec cursus sed eros suscipit malesuada."
+}

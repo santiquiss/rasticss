@@ -1,0 +1,91 @@
+.home-hero {
+	background: #fff url(skins/bumeran/img/hero-bg-sm.jpg) no-repeat center top;
+	background-size: cover; 
+	height: 380px;
+  padding-top: 95px;
+	position: relative;
+  @media (min-width: @screen-sm-min) {
+    background-image: url(skins/bumeran/img/hero-bg-md.jpg);
+  }
+  @media (min-width: @screen-md-min) {
+    background-image: url(skins/bumeran/img/hero-bg-lg.jpg);
+    background-color: #EEEDF2;
+    background-size: auto 100%; 
+  }
+}
+.home-hero__title {
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.1em;
+  margin-bottom: 10px;
+  text-shadow: 0 1px 10px #FFF,0 0px 15px #FFF,0 0px 5px #FFF;
+  @media (min-width: @screen-sm-min) {
+    font-size: 30px;
+  }
+}
+.home-hero__search-form {
+  position: relative;
+  text-align: center;
+  max-width: 340px;
+  margin: 0 auto;
+  @media (min-width: @screen-sm-min) {
+    max-width: 450px;
+  }
+}
+.home-hero__search-label {
+  font-size: 22px;
+  position: absolute;
+  display: block;
+  top: 7px;
+  left: 8px;
+  cursor: pointer;
+  margin: 0;
+}
+.home-hero__search-input {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #8C8C8C;
+  padding: 7px 10px 9px 35px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  font-size: 18px;
+}
+
+@keyframes point-down {
+  0%, 100% {
+    transform: translate3d(0, -3px, 0);
+    opacity: 0;
+  }
+  10% { opacity: 1; }
+  40% { opacity: 1; }
+  85% { opacity: 0; }
+  100% {
+    transform: translate3d(0, 7px, 0);
+    opacity: 0;
+  };
+}
+
+.home-hero__instructions {
+	position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 0 25px;
+  #gradient .vertical(rgba(255,255,255,0),rgba(255, 255, 255, .95),0%,90%);
+  font-size: 18px;
+  text-shadow: 0 1px 10px #FFF,0 0px 15px #FFF,0 0px 5px #FFF;
+  &:after {
+    content: "\e601";
+    font-family: @icon-font-name;
+    position: absolute;
+    width: 30px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -15px;
+    font-size: 23px;
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: point-down;
+    animation-timing-function: linear;
+  }
+}

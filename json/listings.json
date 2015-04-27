@@ -1,0 +1,218 @@
+{
+  "listingsTitle": "138 Empleos Full-time en Capital Federal de Tecnología, Sistemas y Telecomunicaciones",
+  "appliedFilters": [
+    {
+      "name": "Ventas"
+    }
+  ],
+  "filtersGroups": [
+    {
+      "title": "Fecha de Publicación",
+      "doubleColumnLayout": true,
+      "filters" : [
+        {
+          "name": "Hoy",
+          "count": 13
+        },
+        {
+          "name": "Ayer",
+          "count": 15
+        },
+        {
+          "name": "Menor a 3 días",
+          "count": 24
+        },
+        {
+          "name": "Menor a 4 días",
+          "count": 35
+        },
+        {
+          "name": "Menor a 5 días",
+          "count": 48
+        },
+        {
+          "name": "Menor a 1 semana",
+          "count": 48
+        }
+      ]
+    },
+    {
+      "title": "Tipo de puesto",
+      "doubleColumnLayout": true,
+      "filters" : [
+        {
+          "name": "Full-time",
+          "count": 13
+        },
+        {
+          "name": "Pasantía",
+          "count": 15
+        },
+        {
+          "name": "Part-time",
+          "count": 24
+        },
+        {
+          "name": "Por contrato",
+          "count": 35
+        },
+        {
+          "name": "Teletrabajo",
+          "count": 48
+        }
+      ]
+    },
+    {
+      "title": "Area",
+      "filters" : [
+        {
+          "name": "Tecnología, Sistemas y Telecomunicaciones",
+          "count": 13
+        },
+        {
+          "name": "Administración, Contabilidad y Finanzas",
+          "count": 15
+        },
+        {
+          "name": "Comercial, Ventas y Negocios",
+          "count": 24
+        },
+        {
+          "name": "Marketing y Publicidad",
+          "count": 35
+        },
+        {
+          "name": "Abastecimiento y Logística",
+          "count": 48
+        }
+      ]
+    }
+  ],
+  "listings": [
+    {
+      "company": {
+        "name": "Accenture",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/0/0/7/0/2/0/logoMainPic_7020.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Jóvenes Profesionales",
+      "publishedWhen": "53 min",
+      "url": "listing-detail.html",
+      "isnew": true
+    },
+    {
+      "company": {
+        "name": "Pullmen Servicios Empresarios",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/2/1/5/4/9/6/0/logoMainPic_2154960.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Supervisores de Servicio / Operaciones para empresa de recolección de residuos (CABA)",
+      "publishedWhen": "Ayer",
+      "url": "listing-detail.html",
+      "isnew": true
+    },
+    {
+      "company": {
+        "name": "Despegar.com",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/0/1/1/9/7/0/logoMainPic_11970.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Analista Jr",
+      "publishedWhen": "Ayer",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "Bumeran.com",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/2/1/9/6/7/4/0/logoMainPic_2196740_aviso_1002127435.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "¡Buscamos los mejores ejecutivos de ventas!",
+      "publishedWhen": "2 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "ISS ARGENTINA",
+        "url": "listing-detail.html"
+      },
+      "title": "Técnico Superior en Higiene y Seguridad",
+      "publishedWhen": "2 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "title": "Analista Técnico PeopleSoft",
+      "publishedWhen": "3 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "Grupo Cepas",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/2/6/0/3/7/9/0/logoMainPic_2603790.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Asistente de Marketing",
+      "publishedWhen": "3 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "SMEDIA | Tecnología + Cratividad",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/4/8/9/4/8/0/logoMainPic_489480.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Responsable Administrativa Contable / Horario Reducido y Excelente Salario",
+      "publishedWhen": "4 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "HSBC",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/1/6/4/1/9/0/logoMainPic_164190_aviso_1420460656869.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Programa de Jóvenes Profesionales HSBC",
+      "publishedWhen": "4 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "HUMANBRAND",
+        "url": "listing-detail.html"
+      },
+      "title": "Responsable de Sistemas de Gestión de Calidad",
+      "publishedWhen": "4 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "PwC Argentina",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/3/1/1/5/3/0/logoMainPic_311530.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Estudiantes y/o graduados de Contador Público para Auditoría / Impuestos",
+      "publishedWhen": "4 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "Cablevisión S.A.",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/7/8/4/3/0/0/logoMainPic_784300_aviso_1001697009.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Representantes de Atención al Cliente - Part time",
+      "publishedWhen": "5 días",
+      "url": "listing-detail.html"
+    },
+    {
+      "company": {
+        "name": "Deloitte",
+        "logoUrl": "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/0/1/4/0/0/0/logoMainPic_14000.jpg",
+        "url": "listing-detail.html"
+      },
+      "title": "Estudiantes y/o graduados de Contador Público para Auditoría / Impuestos",
+      "publishedWhen": "5 días",
+      "url": "listing-detail.html"
+    }
+  ]
+}

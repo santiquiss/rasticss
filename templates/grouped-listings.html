@@ -1,0 +1,24 @@
+<div class="grouped-listings-container">
+
+  {{#groupedListings}}
+
+  <div class="grouped-listing">
+    <div class="grouped-listing__inner">
+      
+      {{#company}}
+        {{#logoUrl}}
+          <img class="grouped-listing__company-logo" src="{{logoUrl}}" height="56" width="88">
+        {{/logoUrl}}
+        <a href="{{url}}" class="grouped-listing__company-name">{{name}}</a>
+      {{/company}}
+
+      {{#listings}}
+        <a href="{{url}}" class="grouped-listing__job-title">{{title}} <span class="grouped-listing__time-published">{{publishedWhen}}</span></a>
+      {{/listings}}
+
+    </div>
+  </div>
+
+  {{/groupedListings}}
+
+</div>

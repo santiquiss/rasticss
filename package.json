@@ -1,0 +1,21 @@
+{
+  "name": "Rasti-CSS",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/santiquiss/rasticss.git"
+  },
+  "dependencies": {
+    "grunt-cli": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express": "latest",
+    "grunt-open": "latest"
+  },
+  "devDependencies": {
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-contrib-cssmin": "^0.12.2"
+  }
+}

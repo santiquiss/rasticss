@@ -1,0 +1,120 @@
+.listing-detail-container {
+  background: #fff;
+  margin: 0 -15px 15px;
+  padding: 0 15px 1px;
+  @media (min-width: @screen-sm-min) {
+    padding: 20px 20px 15px;
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.30);
+  }
+}
+.listing-detail__title {
+  font-size: 20px;
+  padding: 15px 0 0;
+  margin: 0 0 10px;
+  @media (min-width: @screen-sm-min) {
+    font-size: 24px;
+    padding: 0;
+    margin: 0 0 10px;
+  }
+  @media (min-width: @screen-lg-min) {
+    font-size: 28px;
+    margin: 0 0 10px;
+  }
+}
+.listing-detail__company-name {
+  font-size: 17px;
+  margin: 0 0 14px;
+  font-weight: 400;
+  @media (min-width: @screen-sm-min) {
+    font-size: 18px;
+    margin: 0 0 20px;
+  }
+  @media (min-width: @screen-lg-min) {
+    font-size: 22px;
+  }
+}
+.listing-detail__company-logo {
+  float: right;
+  width: 80px;
+  margin: 5px 0 -25px 5px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  @media (min-width: @screen-sm-min) {
+    width: 100px;
+    margin: 5px 0 -29px 5px;
+  }
+  @media (min-width: @screen-lg-min) {
+    width: 120px;
+  }
+}
+.listing-detail__info-table-title {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  @media (min-width: @screen-lg-min) {
+    font-size: 20px;
+  }
+}
+.listing-detail__info-table {
+  width: 100%;
+  margin: 0 -15px 15px;
+  font-size: 14px;
+  @media (min-width: @screen-sm-min) {
+    font-size: 16px;
+    margin: 0 0 15px;
+  }
+  @media (min-width: @screen-lg-min) {
+    font-size: 18px;
+  }
+  tr {
+    #gradient .horizontal(#f4f4f4,#fff);
+    &:nth-child(even) {
+      background: #fff;
+      th { background: #fff; }
+    }
+  }
+  td, th {
+    padding: 2px 7px;
+    @media (min-width: @screen-sm-min) {
+      padding: 3px 7px;
+    }
+  }
+  th {
+    border-right: 0;
+    font-weight: 300;
+    color: #666;
+    background: #f4f4f4;
+    white-space: nowrap;
+    padding-left: 15px;
+    width: 30%;
+    @media (min-width: @screen-sm-min) {
+      padding-left: 7px;
+    }
+  }
+  td {
+    border-left: 0;
+  }
+}
+.listing-detail__cta-container {
+  padding: 5px 0;
+  margin-bottom: 20px;
+  @media (min-width: @screen-lg-min) {
+    padding: 10px 0;
+  }
+  @media (min-width: @screen-md-min) {
+    .btn--block {
+      width: auto;
+      display: inline;
+    }
+  }
+}
+.listing-detail__similar-listings-title {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.listing-detail__description {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}

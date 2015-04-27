@@ -1,0 +1,1121 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"pointer",
+				"pointer-events"
+			],
+			[
+				"is",
+				"is-nav-open"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"m",
+				"min-width"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"z",
+				"zindex-filters"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"tem",
+				"templateFile"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"TE",
+				"text-align"
+			],
+			[
+				"get",
+				"getRandomInt"
+			],
+			[
+				"form",
+				"formatMoney"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"border-rad",
+				"border-top-left-radius"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"texto",
+				"texto-adicional"
+			],
+			[
+				"estado-postulacion",
+				"estado-postulacion-2"
+			],
+			[
+				"nombre",
+				"nombreSitio"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"ven",
+				"ventas_dias"
+			],
+			[
+				"ve",
+				"ventas_dias"
+			],
+			[
+				"strt",
+				"strtotime"
+			],
+			[
+				"bacgro",
+				"background"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"compa",
+				"company-details"
+			],
+			[
+				"borderlef",
+				"border-left-color"
+			],
+			[
+				"border-color",
+				"border-color"
+			],
+			[
+				"mapa",
+				"mapa-latam-ar-navent"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"lin",
+				"linea3"
+			],
+			[
+				"me",
+				"margin-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mi",
+				"minutes"
+			],
+			[
+				"post-co",
+				"post-content"
+			],
+			[
+				"MARG",
+				"margin-bottom"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"gr",
+				" green(@color)"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "json/user.json",
+			"settings":
+			{
+				"buffer_size": 1830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/cv.html",
+			"settings":
+			{
+				"buffer_size": 6360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/header.html",
+			"settings":
+			{
+				"buffer_size": 3335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "micv.html",
+			"settings":
+			{
+				"buffer_size": 890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "listing-detail.html",
+			"settings":
+			{
+				"buffer_size": 1563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "edit-language.html",
+			"settings":
+			{
+				"buffer_size": 926,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "edit-personal-data.html",
+			"settings":
+			{
+				"buffer_size": 936,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "edit-study.html",
+			"settings":
+			{
+				"buffer_size": 920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "edit-work-experience.html",
+			"settings":
+			{
+				"buffer_size": 940,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "listings.html",
+			"settings":
+			{
+				"buffer_size": 906,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/santiquiss/Documents/rasticss/templates/listings.html",
+		"/Users/santiquiss/Documents/rasticss/micv.html",
+		"/Users/santiquiss/Documents/rasticss/templates/header.html",
+		"/Users/santiquiss/Documents/rasticss/js/buildtemplates.js",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/my-cv.less",
+		"/Users/santiquiss/Documents/rasticss/json/grouped-listings.json",
+		"/Users/santiquiss/Documents/rasticss/json/listings.json",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/grouped-listings.less",
+		"/Users/santiquiss/Documents/rasticss/listing-detail.html",
+		"/Users/santiquiss/Documents/rasticss/bumeran.min.css",
+		"/Users/santiquiss/Documents/rasticss/Gruntfile.js",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/main-header.less",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/listing-details.less",
+		"/Users/santiquiss/Documents/rasticss/js/helpers.js",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/buttons.less",
+		"/Users/santiquiss/Documents/rasticss/json/header.json",
+		"/Users/santiquiss/Documents/rasticss/core/base/forms.less",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/listings.less",
+		"/Users/santiquiss/Documents/rasticss/core/base/scaffolding.less",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/parameters/colors.less",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/parameters/z-index.less",
+		"/Users/santiquiss/Documents/rasticss/templates/grouped-listings.html",
+		"/Users/santiquiss/Documents/rasticss/templates/home-hero.html",
+		"/Users/santiquiss/Documents/rasticss/templates/footer.html",
+		"/Users/santiquiss/Documents/rasticss/templates/edit-personal-data.html",
+		"/Users/santiquiss/Documents/rasticss/templates/edit-work-experience.html",
+		"/Users/santiquiss/Documents/rasticss/templates/edit-language.html",
+		"/Users/santiquiss/Documents/rasticss/templates/edit-study.html",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/icons.less",
+		"/Users/santiquiss/Documents/rasticss/templates/cv.html",
+		"/Users/santiquiss/Documents/rasticss/edit-language.html",
+		"/Users/santiquiss/Documents/rasticss/edit-study.html",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/backdrop.less",
+		"/Users/santiquiss/Documents/rasticss/work-experience.html",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/components/fine-print.less",
+		"/Users/santiquiss/Documents/rasticss/skins/bumeran/bumeran.less",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/main-footer.less",
+		"/Users/santiquiss/rasticss/skins/bumeran/parameters/z-index.less",
+		"/Users/santiquiss/rasticss/templates/listing-detail.html",
+		"/Users/santiquiss/rasticss/skins/bumeran/bumeran.less",
+		"/Users/santiquiss/rasticss/json/cv.json",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/listing-details.less",
+		"/Users/santiquiss/rasticss/templates/grouped-listings.html",
+		"/Users/santiquiss/rasticss/json/listings.json",
+		"/Users/santiquiss/rasticss/json/listing-detail.json",
+		"/Users/santiquiss/rasticss/templates/footer.html",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/grouped-listings.less",
+		"/Users/santiquiss/rasticss/listings.html",
+		"/Users/santiquiss/rasticss/json/grouped-listings.json",
+		"/Users/santiquiss/rasticss/listing-detail.html",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/breadcrumbs.less",
+		"/Users/santiquiss/rasticss/json/breadcrumb.json",
+		"/Users/santiquiss/rasticss/templates/breadcrumb.html",
+		"/Users/santiquiss/rasticss/skins/bumeran/parameters/colors.less",
+		"/Users/santiquiss/rasticss/skins/bumeran/bumeran-parameters.less",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/body-variant.less",
+		"/Users/santiquiss/rasticss/skins/bumeran/parameters/buttons.less",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/listings.less",
+		"/Users/santiquiss/rasticss/js/helpers.js",
+		"/Users/santiquiss/rasticss/index.html",
+		"/Users/santiquiss/rasticss/templates/listings.html",
+		"/Users/santiquiss/rasticss/js/jquery.mobile-events.js",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/main-header.less",
+		"/Users/santiquiss/rasticss/js/modernizr.min.js",
+		"/Users/santiquiss/rasticss/js/buildtemplates.js",
+		"/Users/santiquiss/rasticss/Gruntfile.js",
+		"/Users/santiquiss/rasticss/templates/header.html",
+		"/Users/santiquiss/rasticss/json/similar-listings.json",
+		"/Users/santiquiss/rasticss/js/jquery-1.11.2.min.js",
+		"/Users/santiquiss/rasticss/skins/bumeran/img/navent-logo.svg",
+		"/Users/santiquiss/rasticss/templates/login-options.html",
+		"/Users/santiquiss/rasticss/test.html",
+		"/Users/santiquiss/rasticss/templates/home-hero.html",
+		"/Users/santiquiss/rasticss/skins/bumeran/img/bumeran-logo.svg",
+		"/Users/santiquiss/rasticss/json/footer.json",
+		"/Users/santiquiss/rasticss/json/login-options.json",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/home-hero.less",
+		"/Users/santiquiss/rasticss/json/header.json",
+		"/Users/santiquiss/rasticss/templates/test.html",
+		"/Users/santiquiss/rasticss/json/test.json",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/login-options.less",
+		"/Users/santiquiss/rasticss/json/home-hero.json",
+		"/Users/santiquiss/rasticss/js/ich.min.js",
+		"/Users/santiquiss/rasticss/mustache.min.js",
+		"/Users/santiquiss/rasticss/skins/bumeran/components/posting-masonry.less",
+		"/Users/santiquiss/rasticss/core/rasti-core.less",
+		"/Users/santiquiss/rasticss/core/defaults/colors.less",
+		"/Users/santiquiss/rasticss/core/defaults/typography.less",
+		"/Users/santiquiss/rasticss/core/defaults/grid.less",
+		"/Users/santiquiss/rasticss/core/rasti.less",
+		"/Users/santiquiss/rasticss/core/rasti-defaults.less",
+		"/Users/santiquiss/rasticss/less/rasti.less",
+		"/Users/santiquiss/rasticss/core/utilities/utilities.less",
+		"/Users/santiquiss/rasticss/core/grid.less",
+		"/Users/santiquiss/rasticss/core/tables.less",
+		"/Users/santiquiss/rasticss/less/mixins.less",
+		"/Users/santiquiss/rasticss/less/variables.less",
+		"/Users/santiquiss/rasticss/less/type.less",
+		"/Users/santiquiss/rasticss/core/scaffolding.less",
+		"/Users/santiquiss/rasticss/less/mixins/buttons.less",
+		"/Users/santiquiss/rasticss/less/component-animations.less",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/01_Millionaire Society/Landing 2/index.html",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/01_Millionaire Society/Landing 2/style.css",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/01_Millionaire Society/Landing 2/script.js",
+		"/Users/santiquiss/Desktop/teste Michel/index.html",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/Landing 1/style.css",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/Landing 1/script.js",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/Landing 1/index.html",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/Landing 1/landing1.html",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/animate.css",
+		"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/Landing 1/normalize.css",
+		"/Users/santiquiss/rasticss/README.md",
+		"/Users/santiquiss/rasticss/holamundo.css",
+		"/Users/santiquiss/rasticss/test/holamundo copia.css",
+		"/Users/santiquiss/Documents/workspace/BUMEX/WebContent/portal/css/less/paginas/talleres.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX/WebContent/portal/css/less/paginas/bumeranplus.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX/WebContent/portal/css/less/paginas/postulacion.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX/WebContent/portal/css/less/baseDos.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX/WebContent/portal/css/less/base.less",
+		"/Users/santiquiss/hello-world/readme.txt",
+		"/Users/santiquiss/patchwork/contributors/add-santiquiss.txt",
+		"/Users/santiquiss/Desktop/Boxify/css/queries.css",
+		"/Users/santiquiss/Documents/workspace/BUMEX-BumeranPlus/WebContent/portal/css/less/paginas/postulacion.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX-BumeranPlus/WebContent/portal/css/less/paginas/bumeranplus.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX-BumeranPlus/WebContent/portal/css/less/baseDos.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX-BumeranPlus/WebContent/portal/css/less/base.less",
+		"/Users/santiquiss/Documents/workspace/BUMEX-BumeranPlus/WebContent/portal/css/less/patterns.less",
+		"/Users/santiquiss/Documents/Jobs/Bumeran Plus/postulacion-blur.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/santiquiss/rasticss/",
+			"/Users/santiquiss/rasticss/*.*",
+			"/Users/santiquiss/rasticss/*",
+			"/Users/santiquiss/rasticss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Avanzado",
+			"studies",
+			"workExperiences",
+			"59526989",
+			"mycv__timeline",
+			"workExperiences",
+			"main-header__nav-items-additional",
+			"additional",
+			".is-nav-open",
+			"pointer-events",
+			"is-nav-open",
+			"/test/",
+			"\"url\" : \"#\"",
+			"\"url\": \"#\"",
+			"\"url\": \"#\",",
+			"\"url\": \"#\"",
+			".btn+",
+			".btn + .btn",
+			"main-header__nav-items",
+			"disabled",
+			"bu",
+			"cha",
+			"mycv__section-edit",
+			"mycv__section-body\n\nmycv__section-body-edit",
+			"#",
+			"form-",
+			"select",
+			"col-sm-6",
+			"col-sm-offset-6",
+			";\n",
+			"div",
+			"micv",
+			"template",
+			"class",
+			"btn--sm\n",
+			"btn-sm\n",
+			";\n",
+			"header",
+			"filtersGroups",
+			"}\n      ]",
+			"\"listings\" : [\n        {",
+			"grouped-listings",
+			"posting-masonry",
+			"<div class=\"posting-masonry\">",
+			"avoid",
+			"red",
+			"@import \"defaults/colors.less\";",
+			"Buenos Aires\nCatamarca\nChaco\nChubut\nCiudad Autónoma de Buenos Aires\nCorrientes\nCórdoba\nEntre Ríos\nFormosa\nJujuy\nLa Pampa\nLa Rioja\nMendoza\nMisiones\nNeuquén\nRío Negro\nSalta\nSan Juan\nSan Luis\nSanta Cruz\nSanta Fe\nSantiago del Estero\nTierra del Fuego, Antártida e Islas del Atlántico Sur\nTucumán",
+			"Won",
+			"	•	",
+			"bouncein",
+			"block",
+			"quote",
+			"requisitos-bumeran-plus",
+			"landing_talleres",
+			"Luke",
+			"mensaje-bumeran-plus",
+			"landing_bumeranplus",
+			"postulacion_container",
+			"=3D",
+			"=20",
+			"=C3",
+			"=A1",
+			"=C2",
+			"=20",
+			"=3D\"",
+			"Experiencia",
+			"Educacion",
+			"hola",
+			"tabs",
+			"Ã±",
+			"Ã¡",
+			"Ã­",
+			"Ãº",
+			"Ã³",
+			"Ã©",
+			"&amp;",
+			"(\\n)+",
+			"(\\s)+",
+			"#.+#",
+			"<title>",
+			"</title>",
+			"</item>",
+			"<item>",
+			"<enclosure url=\".+\" type=\".+\" />",
+			"<guid>.+</guid>",
+			"pa",
+			"panama",
+			"konzerta",
+			"rgba",
+			".rgba",
+			"rgba",
+			"about",
+			"ó",
+			"á",
+			"      ",
+			"alt=\"\" title=\"\" target=\"_self\" href=\"#\"",
+			"href=\"(.+)\"",
+			"\">",
+			";\n",
+			"spin",
+			".border-radius",
+			"border-radius",
+			"radius",
+			"focus",
+			"post-title",
+			"post-thumb",
+			"post-des",
+			"post-title",
+			"post-price",
+			"post-info",
+			"post-content",
+			"post-title",
+			"post-info",
+			"post-title",
+			"isEmpty",
+			"_show",
+			"open",
+			"_open",
+			"open",
+			"dropdownView",
+			"_handleSelection",
+			"tab",
+			"enterKeyed",
+			"tabKeyed",
+			"enterKeyed",
+			"tab",
+			"_autocomplete"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"• ",
+			"ñ",
+			"á",
+			"í",
+			"ú",
+			"ó",
+			"é",
+			"&",
+			"\\n",
+			" ",
+			"",
+			"&oacute;",
+			"&aacute;",
+			" ",
+			"",
+			"href=\"#\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "json/user.json",
+					"settings":
+					{
+						"buffer_size": 1830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1658,
+								1658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 411.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/cv.html",
+					"settings":
+					{
+						"buffer_size": 6360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5840,
+								5840
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/header.html",
+					"settings":
+					{
+						"buffer_size": 3335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 751.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "micv.html",
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "listing-detail.html",
+					"settings":
+					{
+						"buffer_size": 1563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "edit-language.html",
+					"settings":
+					{
+						"buffer_size": 926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "edit-personal-data.html",
+					"settings":
+					{
+						"buffer_size": 936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "edit-study.html",
+					"settings":
+					{
+						"buffer_size": 920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "edit-work-experience.html",
+					"settings":
+					{
+						"buffer_size": 940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "listings.html",
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/santiquiss/Dropbox/Proyectos personales/05_Gambling/Gambling.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true
+}
