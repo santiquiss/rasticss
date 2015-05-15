@@ -1,27 +1,31 @@
 {
-  "logged" : false,
-  "names" : "Jazmin",
-  "lastNames": "Reale",
-  "photoUrl": "fotos/Jazmin.jpg",
-  "email": "user@gmail.com",
-  "dateOfBirth": "55/55/55",
-  "age": "22",
-  "maritalStatus": "Soltera",
+  "logged" : true,
+  "names" : "Santiago",
+  "lastNames": "Quiss",
+  "photoUrl": "http://www.bumeran.com.ar/portal/img/postulantes/0/0/8/5/3/4/5/5/7/0/cvMainPic_85345570.jpg",
+  "email": "santiquiss@gmail.com",
+  "dateOfBirth": "01/59/83",
+  "age": "31",
+  "maritalStatus": "Soltero",
   "documentType": "DNI",
-  "documentNumber": "11.111.111",
-  "mainTelephoneNumber": "11 55555555",
+  "documentNumber": "30.391.792",
+  "mainTelephoneNumber": "11 59526887",
   "addressStreet": "Cabrera 5354",
   "addressLocality": "Palermo, CABA",
   "workExperiences":[
     {
       "title": "Administrativo contable",
       "companyName": "Bumeran.com",
+      "description": "Encargado del desarrollo del front end del portal y la concepción de nuevos productos. Creación de bocetos y product sheets con detalles del funcionamiento y L&F del portal. Coordinación con el área de desarrollo para la puesta en funcionamiento de nuevas funcionalidades.",
+      "peopleInCharge": 2,
+      "ownBudget": true,
       "dateStart": "Mar 2012",
       "dateEnd": "Presente"
     },
     {
-      "title": "Administrativo contable",
-      "companyName": "Bumeran.com",
+      "title": "In Room Dining Server",
+      "companyName": "The Ritz Carlton Bachelor",
+      "description": "Analizar los problemas y desafíos de los usuarios de bumeran y diseñar interfaces eficientes y fáciles de usar. Conceptualizar, bocetar y crear prototipos. Realizar tests con usuarios. Maquetar los diseños en forma eficiente y performante. Creación de una hoja de estilo global y plugins en JQuery para el manejo de elementos comunes de la UI. Optimización de los recursos utilizados para manejar un alto tráfico.",
       "dateStart": "Abr 2009",
       "dateEnd": "Mar 2012"
     }

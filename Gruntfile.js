@@ -1,13 +1,14 @@
 module.exports = function(grunt) {
  
-  grunt.registerTask('watch', [ 'watch' ]);
- 
   grunt.initConfig({
 
     less: {
       style: {
         files: {
-          "bumeran.min.css": "skins/bumeran/bumeran.less"
+          "bumeran.css": "skins/bumeran/bumeran.less"
+        },
+        options: {
+          compress: false
         }
       }
     },
@@ -26,14 +27,14 @@ module.exports = function(grunt) {
         ]
       },
       core: {
-        src: 'bumeran.min.css'
+        src: 'bumeran.css'
       }
     },
 
     cssmin: {
       target: {
         files: {
-          'bumeran.min.css': "bumeran.min.css"
+          'bumeran.min.css': 'bumeran.css'
         }
       }
     },
@@ -43,23 +44,43 @@ module.exports = function(grunt) {
         livereload: true,
       },
       css: {
-        files: ['**/*.less'],
-        tasks: ['less','autoprefixer','cssmin']
+        files: ['**/*.less','*.less','**/**/*.less'],
+        tasks: ['less','autoprefixer','cssmin','dss']
       },
       html: {
         files: ['**/*.html']
+      }
+    },
+
+    dss: {
+      docs: {
+        files: {
+          'docs/': 'bumeran.css'
+        },
+        options: {
+          template: 'docs_themes/',
+          include_empty_files: false,
+          parsers: {
+            unique_id: function(i, line, block){
+              return line;
+            }
+          }
+        }
       }
     }
 
   });
  
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  //grunt.loadNpmTasks('grunt-contrib-concat');
+  //grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-dss');
 
-  grunt.registerTask('default', ['less','autoprefixer','cssmin',]);
+  //grunt.registerTask('watch', ['watch']);
+  //grunt.registerTask('dss', 'dss');
+  grunt.registerTask('default', ['less','autoprefixer','cssmin']);
  
 };

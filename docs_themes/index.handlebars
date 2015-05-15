@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>{{project.name}} styleguide</title>  
+  <link rel="stylesheet" href="assets/js/prettify/prettify.css?v=1" type="text/css" />
+  <link rel="stylesheet" href="../bumeran.css?v=1" type="text/css" />
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/prettify/prettify.js?v=1"></script>
+  <script>
+  $(function(){
+
+    $('.js-toggle-code').click(function(event){
+      event.preventDefault();
+      $(this).parent().next().toggleClass('hide');
+    });
+
+    $('.docs__rendered-example').click(function(event){
+      event.preventDefault();
+      $(this).toggleClass('altbg');
+    });
+
+  });
+  </script>
+</head>
+<body onload="prettyPrint()" class="docs-body">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <header class="docs-header">
+          <h1>{{project.name}} styleguide</h1>
+          <p class="version">v.<strong>{{project.version}}</strong></p>
+          <p class="description">{{project.description}}</p>
+        </header>
+
+        <!--
+        <nav role="main">
+          <h2>Table of Contents</h2>
+          <ul>
+            {{#files}}
+              <li><a href="#{{file}}" data-file="{{file}}">{{file}}</a></li>
+            {{/files}}
+          </ul>
+        </nav>
+        -->
+
+        <nav role="main">
+          <h2>Table of Contents</h2>
+          <ul>
+            {{#files}}
+              {{#blocks}}
+              <li><a href="#{{unique_id}}">{{name}}</a></li>
+              {{/blocks}}
+            {{/files}}
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="styleguide">
+
+    {{#files}}
+    <div class="file">
+      
+      <!--
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h4 id="{{file}}">{{file}}</h4>
+          </div>
+        </div>
+      </div>
+      -->
+
+      {{#blocks}}
+        
+        <div class="block">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+
+                <div class="info">
+                  <h3 id="{{unique_id}}">{{name}}</h3>
+                  {{#if description}}
+                    <p class="description">{{description}}</p>
+                  {{/if}}
+
+                  {{#state}}
+                    <p class="state"><span>{{name}}</span> - {{description}}</p>
+                  {{/state}}
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          {{#if markup}}
+            
+            <div class="docs__rendered-example altbg">
+              {{{markup.example}}}
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="docs__rendered-example__actions">
+                    <a href="#" class="btn btn--default btn--sm js-toggle-code"><span class="icon-code"></span> Show code</a>
+                  </div>
+<pre class="prettyprint lang-html markup hide">
+{{{markup.escaped}}}
+</pre>
+                </div>
+              </div>
+            </div>
+          
+          {{/if}}
+      
+      </div>
+      {{/blocks}}
+
+    </div>
+    {{/files}}
+
+  </div>
+
+
+  <footer>
+  </footer>
+
+</body>
+</html>

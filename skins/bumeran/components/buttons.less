@@ -1,10 +1,46 @@
-//
-// Buttons
-// --------------------------------------------------
+/**
+@name Regular Buttons
+@unique_id regular-buttons
+@description Different colors and sizes for buttons
 
-
-// Base styles
-// --------------------------------------------------
+@markup
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p>
+        <!-- Small buttons -->
+        <a class="btn btn--sm btn--default">Button</a>
+        <a class="btn btn--sm btn--primary">Button</a>
+        <a class="btn btn--sm btn--success">Button</a>
+        <a class="btn btn--sm btn--info">Button</a>
+        <a class="btn btn--sm btn--warning">Button</a>
+        <a class="btn btn--sm btn--danger">Button</a>
+        <!-- Ends here -->
+      </p>
+      <p>
+        <!-- Regular buttons -->
+        <a class="btn btn--default">Button</a>
+        <a class="btn btn--primary">Button</a>
+        <a class="btn btn--success">Button</a>
+        <a class="btn btn--info">Button</a>
+        <a class="btn btn--warning">Button</a>
+        <a class="btn btn--danger">Button</a>
+        <!-- Ends here -->
+      </p>
+      <p>
+        <!-- Large buttons -->
+        <a class="btn btn--lg btn--default">Button</a>
+        <a class="btn btn--lg btn--primary">Button</a>
+        <a class="btn btn--lg btn--success">Button</a>
+        <a class="btn btn--lg btn--info">Button</a>
+        <a class="btn btn--lg btn--warning">Button</a>
+        <a class="btn btn--lg btn--danger">Button</a>
+        <!-- Ends here -->
+      </p>
+    </div>      
+  </div>
+</div>
+*/ 
 
 .btn {
   display: inline-block;
@@ -17,6 +53,7 @@
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid transparent;
   white-space: nowrap;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
   .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
   .user-select(none);
 
@@ -42,6 +79,14 @@
     .opacity(.65);
     .box-shadow(none);
   }
+
+  // Make icons inside buttons behave
+  [class^="icon-"], [class*=" icon-"] {
+    position: relative;
+    bottom: -2px;
+    left: 0;
+  }
+
 }
 
 
@@ -70,6 +115,22 @@
 .btn--danger {
   .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border; @btn-danger-color-hover; @btn-danger-bg-hover; @btn-danger-border-hover);
 }
+
+/**
+@name Social Button Variants
+@unique_id social-button-variants
+@description Buttons for Logging in with Facebook or Google. They have to be used as a block and large button.
+
+@markup
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <a href="#" class="btn btn--primary btn--lg btn--block btn--google">Login with Google</a>
+      <a href="#" class="btn btn--primary btn--lg btn--block btn--facebook">Login with Facebook</a>
+    </div>      
+  </div>
+</div>
+*/ 
 
 .btn--facebook,
 .btn--google {
@@ -209,6 +270,11 @@
 .btn--lg {
   // line-height: ensure even-numbered height of button next to large input
   .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+  // Icons
+  [class^="icon-"], [class*=" icon-"] {
+    font-size: 22px;
+    bottom: 0;
+  } 
 }
 .btn--sm {
   // line-height: ensure proper height of button next to small input

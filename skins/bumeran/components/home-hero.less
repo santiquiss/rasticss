@@ -1,3 +1,28 @@
+/**
+@name Home Hero
+@unique_id home-hero
+@description This is the main section in the homepage, it has the most important comunication image and the main search box. The image can be different for each screen size (which it is in this case).
+@markup
+<div class="home-hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="home-hero__title">
+          &iexcl;Encontr&aacute; <strong>nuevos <br><span class="nowrap">empleos todos los d&iacute;as!</span></strong>
+        </div>
+        <form class="home-hero__search-form" action="listings.html">
+          <input type="search" autocomplete="off" name="hero-search" id="hero-search" class="home-hero__search-input" placeholder="Área, Empresa o Puesto">
+          <label for="hero-search" class="home-hero__search-label"><span class="icon-magnifying-glass"></span></label>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="home-hero__instructions">
+    Registrate y comenz&aacute; a postularte<br>en menos de <strong>2</strong> minutos
+  </div>
+</div>
+*/
+
 .home-hero {
 	background: #fff url(skins/bumeran/img/hero-bg-sm.jpg) no-repeat center top;
 	background-size: cover; 
@@ -42,12 +67,8 @@
   margin: 0;
 }
 .home-hero__search-input {
-  width: 100%;
-  border-radius: 3px;
-  border: 1px solid #8C8C8C;
-  padding: 7px 10px 9px 35px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
-  font-size: 18px;
+  border-color: @brand-primary;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
 }
 
 @keyframes point-down {

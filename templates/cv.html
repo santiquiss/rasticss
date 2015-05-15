@@ -23,7 +23,7 @@
               <tbody>
                 <tr>
                   <th>Edad</th>
-                  <td>{{age}} años ( {{dateOfBirth}} )</td>
+                  <td>{{age}} años ({{dateOfBirth}})</td>
                 </tr>
                 <tr>
                   <th>Estado civil</th>
@@ -60,6 +60,13 @@
               <span class="mycv__timeline-data">
                 <span class="mycv__timeline-title">{{title}}</span>
                 <span class="mycv__timeline-subtitle">{{companyName}}</span>
+                <span class="mycv__timeline-description">{{description}}</span>
+                {{#peopleInCharge}}
+                <span class="mycv__timeline-additional-data"><span class="icon-man"></span> {{peopleInCharge}} personas a cargo</span>
+                {{/peopleInCharge}}
+                {{#ownBudget}}
+                <span class="mycv__timeline-additional-data"><span class="icon-credit"></span> Manejo de presupuesto propio</span>
+                {{/ownBudget}}
               </span>
             </a>
             {{/workExperiences}}

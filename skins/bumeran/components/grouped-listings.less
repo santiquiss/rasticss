@@ -1,3 +1,41 @@
+/**
+@name Grouped Listings
+@unique_id grouped-listings
+@description These are listings grouped by company, to be used in the homepage or in related listings inside the listing details. 
+@markup
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- Starts Here -->
+      <div class="grouped-listings-container">
+        <div class="grouped-listing">
+          <div class="grouped-listing__inner">
+            <img class="grouped-listing__company-logo" src="http://placehold.it/88x56" height="56" width="88">
+            <a href="listing-detail.html" class="grouped-listing__company-name">Sofrecom</a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Jóvenes Profesionales <span class="grouped-listing__time-published">53 min</span></a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Analista de compras <span class="grouped-listing__time-published">3 h</span></a>
+          </div>
+        </div>
+        <div class="grouped-listing">
+          <div class="grouped-listing__inner">
+            <img class="grouped-listing__company-logo" src="http://placehold.it/88x56" height="56" width="88">
+            <a href="listing-detail.html" class="grouped-listing__company-name">Pullmen Servicios Empresarios</a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Supervisores de Servicio / Operaciones para empresa de recolección de residuos (CABA) <span class="grouped-listing__time-published">Ayer</span></a>
+          </div>
+        </div>
+        <div class="grouped-listing">
+          <div class="grouped-listing__inner">
+            <img class="grouped-listing__company-logo" src="http://placehold.it/88x56" height="56" width="88">
+            <a href="listing-detail.html" class="grouped-listing__company-name">Pullmen Servicios Empresarios</a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Supervisores de Servicio / Operaciones para empresa de recolección de residuos (CABA) <span class="grouped-listing__time-published">Ayer</span></a>
+          </div>
+        </div>
+      </div>
+      <!-- Ends Here -->
+    </div>
+  </div>
+</div>  
+*/
 .grouped-listings-container {
   margin: 0 -7px 30px;
   @media (min-width: @screen-sm-min) {
@@ -29,7 +67,7 @@
 .grouped-listing__inner {
   border-radius: 4px;
   background: #FFFFFF;
-  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.30);
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5);
 }
 .grouped-listing__company-logo {
   float: right;
@@ -73,7 +111,7 @@
   }
 }
 .grouped-listing__time-published {
-  color: #666;
+  color: #696969;
   font-size: 13px;
   font-weight: 300;
   white-space: nowrap;

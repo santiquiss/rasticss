@@ -9,17 +9,19 @@
       <a href="#" class="main-header__menu js-class-toggler hidden-xs" data-element=".main-header__nav-items-standard" data-class="is-open"><span class="icon-menu"></span></a>
       <a href="#" class="main-header__menu js-class-toggler visible-xs-block" data-element="html" data-class="is-nav-open"><span class="icon-menu"></span></a>  
       
+      <!--
       <form class="main-header__search-form" action="#">
         <input type="search" autocomplete="off" name="search" id="search" class="main-header__search-input" placeholder="Buscar Empleos">
         <label for="search" class="main-header__search-label"><span class="icon-magnifying-glass"></span></label>
       </form>
+      -->
 
       <div class="main-header__nav">
 
         {{^logged}}
         <div class="main-header__nav-login">
-          <a href="#" class="btn btn--default">Ingresar</a>
-          <a href="#" class="btn btn--primary">Registrarme</a>
+          <a href="#" class="btn btn--default" data-toggle="modal" data-target="#modal-login">Ingresar</a>
+          <a href="#" class="btn btn--primary" data-toggle="modal" data-target="#modal-registration">Registrarme</a>
         </div>
         {{/logged}}
 
@@ -63,6 +65,7 @@
             {{/logged}}
 
             <ul class="main-header__nav-items {{#logged}}main-header__nav-items-additional{{/logged}}">
+              <li><a href="#" class="main-header__nav-item">Buscar avisos</a></li>
               <li><a href="#" class="main-header__nav-item">Bumeran Premium</a></li>
               {{^logged}}<li><a href="#" class="main-header__nav-item">Para empresas</a></li>{{/logged}}
             </ul>

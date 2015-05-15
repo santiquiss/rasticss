@@ -36,7 +36,7 @@
     margin: 0;
     border-width: 0;
     border-radius: 3px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.5);
   }
   &:hover {
     text-decoration: none;
@@ -119,7 +119,6 @@
 .mycv__address-street {
   display: block;
   font-size: 20px;
-  font-weight: 300;
 }
 .mycv__address-locality {
   display: block;
@@ -129,15 +128,17 @@
   display: block;
   position: relative;
   padding-left: 90px;
+  padding-bottom: 15px;
   &:hover {
     text-decoration: none;
   }
   &:last-child {
-    margin-bottom: 6px;
-    .mycv__timeline-subtitle { padding-bottom: 0; }
+    //margin-bottom: 0;
+    padding-bottom: 0;
+    .mycv__timeline-description { padding-bottom: 0; }
     .mycv__timeline-data {
       &:before { display: none; }
-      &:after { bottom: 1px; }
+      &:after { bottom: 4px; }
     }
     .mycv__timeline-start-date { bottom: -2px; }
   }
@@ -160,8 +161,8 @@
     position: absolute;
     width: 11px;
     height: 11px;
-    background: #FF465D;
-    top: 1px;
+    background: #76BD43;
+    top: 16px;
     right: -11px;
     z-index: @zindex-timeline-red-dot;
     border-radius: 10px;
@@ -172,14 +173,14 @@
     width: 7px;
     height: 7px;
     background: #fff;
-    top: 3px;
+    top: 18px;
     right: -9px;
     z-index: @zindex-timeline-white-dot;
     border-radius: 10px;
   }
 }
 .mycv__timeline-start-date {
-  bottom: 14px;
+  top: 26px;
 }
 .mycv__timeline-data {
   position: relative;
@@ -190,48 +191,46 @@
     content: "";
     position: absolute;
     left: 4px;
-    background: #FF465D;
+    background: #76BD43;
     width: 3px;
-    top: 5px;
-    bottom: 17px;
-    border-radius: 10px;
-  }
-  &:before {
-    content: "";
-    position: absolute;
-    left: 4px;
-    background: #eee;
-    width: 3px;
-    top: 5px;
-    bottom: -10px;
+    top: 3px;
+    bottom: 4px;
     border-radius: 10px;
   }
 }
 .mycv__timeline-title {
   font-size: 20px;
   line-height: 1.1em;
-  font-weight: 300;
   display: block;
   margin-bottom: 4px;
 }
 .mycv__timeline-subtitle {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.1em;
   display: block;
-  padding-bottom: 15px;
   color: #222;
+  padding-bottom: 5px;
+}
+.mycv__timeline-description {
+  display: block;
+  font-weight: 300;
+  color: #000;
+}
+.mycv__timeline-additional-data {
+  display: block;
+  color: #000;
+  padding-top: 2px;
+  margin-left: -3px;
 }
 .mycv__section-body-title {
   display: block;
   padding: 0 15px;
-  font-weight: 300;
   font-size: 20px;
   line-height: 1.2em;
   margin-bottom: 6px;
 }
 .mycv__section-body-text {
   display: block;
-  font-weight: 17px;
   color: #222;
   font-weight: 300;
   padding: 0 15px;
@@ -261,7 +260,6 @@
   width: 175px;
   float: left;
   font-size: 20px;
-  font-weight: 300;
   padding-left: 58px;
   padding-right: 10px;
   line-height: 42px;

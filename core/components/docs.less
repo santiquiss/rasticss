@@ -1,0 +1,40 @@
+.docs-body {
+  padding-bottom: 40px;
+  background-image: linear-gradient(#fff, #fff 200px, #f4f4f4 300px);
+  background-repeat: no-repeat;
+}
+.docs-header {
+  padding-top: 180px;
+  background: url(docs/assets/logo-rasti.png) no-repeat -30px top;
+  background-size: 425px 200px; 
+}
+.docs__rendered-example {
+  padding: 30px 0 70px;
+  background: #fff;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  & + .prettyprint {
+    margin-top: 0;
+    border-radius: 0 0 4px 4px;
+  }
+  &.altbg {
+    background-image:
+      linear-gradient(45deg, #fafafa 25%, transparent 25%), 
+      linear-gradient(-45deg, #fafafa 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #fafafa 75%),
+      linear-gradient(-45deg, transparent 75%, #fafafa 75%);
+    background-size: 20px 20px;
+  }
+}
+.docs__rendered-example__actions {
+  margin-top: -40px;
+  margin-bottom: 25px;
+}
+.docs_grid-filler {
+  background: tomato;
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 13px;
+  text-align: center;
+}

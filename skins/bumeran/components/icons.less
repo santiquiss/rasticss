@@ -1,163 +1,319 @@
+/**
+@name Icons
+@unique_id icons
+@description This are the main icons used in the site. They can be used inside buttons, resized, etc. just like regular text.
+@markup
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- Make them a little bigger -->
+      <div style="font-size:200%">
+        <!-- Starts here, the title tag is only for easier reference -->
+        <span title="icon-remove-user" class="icon-remove-user"></span>              
+        <span title="icon-chevron-down" class="icon-chevron-down"></span>             
+        <span title="icon-chevron-left" class="icon-chevron-left"></span>             
+        <span title="icon-chevron-right" class="icon-chevron-right"></span>            
+        <span title="icon-chevron-small-down" class="icon-chevron-small-down"></span>       
+        <span title="icon-chevron-small-left" class="icon-chevron-small-left"></span>       
+        <span title="icon-chevron-small-right" class="icon-chevron-small-right"></span>      
+        <span title="icon-chevron-small-up" class="icon-chevron-small-up"></span>         
+        <span title="icon-chevron-thin-down" class="icon-chevron-thin-down"></span>        
+        <span title="icon-chevron-thin-left" class="icon-chevron-thin-left"></span>        
+        <span title="icon-chevron-thin-right" class="icon-chevron-thin-right"></span>       
+        <span title="icon-chevron-thin-up" class="icon-chevron-thin-up"></span>          
+        <span title="icon-chevron-up" class="icon-chevron-up"></span>               
+        <span title="icon-cloud" class="icon-cloud"></span>                    
+        <span title="icon-dots-three-horizontal" class="icon-dots-three-horizontal"></span>    
+        <span title="icon-dots-three-vertical" class="icon-dots-three-vertical"></span>      
+        <span title="icon-download" class="icon-download"></span>                 
+        <span title="icon-install" class="icon-install"></span>                  
+        <span title="icon-resize-100" class="icon-resize-100"></span>               
+        <span title="icon-resize-full-screen" class="icon-resize-full-screen"></span>       
+        <span title="icon-select-arrows" class="icon-select-arrows"></span>            
+        <span title="icon-trash" class="icon-trash"></span>                    
+        <span title="icon-triangle-down" class="icon-triangle-down"></span>            
+        <span title="icon-triangle-left" class="icon-triangle-left"></span>            
+        <span title="icon-triangle-right" class="icon-triangle-right"></span>           
+        <span title="icon-triangle-up" class="icon-triangle-up"></span>              
+        <span title="icon-upload-to-cloud" class="icon-upload-to-cloud"></span>          
+        <span title="icon-upload" class="icon-upload"></span>                   
+        <span title="icon-add-user" class="icon-add-user"></span>                 
+        <span title="icon-address" class="icon-address"></span>                  
+        <span title="icon-aircraft-landing" class="icon-aircraft-landing"></span>         
+        <span title="icon-aircraft-take-off" class="icon-aircraft-take-off"></span>        
+        <span title="icon-aircraft" class="icon-aircraft"></span>                 
+        <span title="icon-archive" class="icon-archive"></span>                  
+        <span title="icon-area-graph" class="icon-area-graph"></span>               
+        <span title="icon-attachment" class="icon-attachment"></span>               
+        <span title="icon-back-in-time" class="icon-back-in-time"></span>             
+        <span title="icon-bar-graph" class="icon-bar-graph"></span>                
+        <span title="icon-block" class="icon-block"></span>                    
+        <span title="icon-browser" class="icon-browser"></span>                  
+        <span title="icon-calculator" class="icon-calculator"></span>               
+        <span title="icon-calendar" class="icon-calendar"></span>                 
+        <span title="icon-camera" class="icon-camera"></span>                   
+        <span title="icon-ccw" class="icon-ccw"></span>                      
+        <span title="icon-check" class="icon-check"></span>                    
+        <span title="icon-circle-with-cross" class="icon-circle-with-cross"></span>        
+        <span title="icon-circle-with-minus" class="icon-circle-with-minus"></span>        
+        <span title="icon-circle-with-plus" class="icon-circle-with-plus"></span>         
+        <span title="icon-code" class="icon-code"></span>                     
+        <span title="icon-cog" class="icon-cog"></span>                      
+        <span title="icon-colours" class="icon-colours"></span>                  
+        <span title="icon-credit-card" class="icon-credit-card"></span>              
+        <span title="icon-credit" class="icon-credit"></span>                   
+        <span title="icon-cross" class="icon-cross"></span>                    
+        <span title="icon-cup" class="icon-cup"></span>                      
+        <span title="icon-database" class="icon-database"></span>                 
+        <span title="icon-documents" class="icon-documents"></span>                
+        <span title="icon-edit" class="icon-edit"></span>                     
+        <span title="icon-email" class="icon-email"></span>                    
+        <span title="icon-emoji-happy" class="icon-emoji-happy"></span>              
+        <span title="icon-emoji-neutral" class="icon-emoji-neutral"></span>            
+        <span title="icon-emoji-sad" class="icon-emoji-sad"></span>                
+        <span title="icon-erase" class="icon-erase"></span>                    
+        <span title="icon-export" class="icon-export"></span>                   
+        <span title="icon-eye" class="icon-eye"></span>                      
+        <span title="icon-forward" class="icon-forward"></span>                  
+        <span title="icon-funnel" class="icon-funnel"></span>                   
+        <span title="icon-gauge" class="icon-gauge"></span>                    
+        <span title="icon-globe" class="icon-globe"></span>                    
+        <span title="icon-graduation-cap" class="icon-graduation-cap"></span>           
+        <span title="icon-hair-cross" class="icon-hair-cross"></span>               
+        <span title="icon-hand" class="icon-hand"></span>                     
+        <span title="icon-heart-outlined" class="icon-heart-outlined"></span>           
+        <span title="icon-heart" class="icon-heart"></span>                    
+        <span title="icon-home" class="icon-home"></span>                     
+        <span title="icon-hour-glass" class="icon-hour-glass"></span>               
+        <span title="icon-image-inverted" class="icon-image-inverted"></span>           
+        <span title="icon-image" class="icon-image"></span>                    
+        <span title="icon-images" class="icon-images"></span>                   
+        <span title="icon-info-with-circle" class="icon-info-with-circle"></span>         
+        <span title="icon-key" class="icon-key"></span>                      
+        <span title="icon-laptop" class="icon-laptop"></span>                   
+        <span title="icon-location-pin" class="icon-location-pin"></span>             
+        <span title="icon-location" class="icon-location"></span>                 
+        <span title="icon-lock-open" class="icon-lock-open"></span>                
+        <span title="icon-lock" class="icon-lock"></span>                     
+        <span title="icon-log-out" class="icon-log-out"></span>                  
+        <span title="icon-login" class="icon-login"></span>                    
+        <span title="icon-magnifying-glass" class="icon-magnifying-glass"></span>         
+        <span title="icon-mail" class="icon-mail"></span>                     
+        <span title="icon-man" class="icon-man"></span>                      
+        <span title="icon-map" class="icon-map"></span>                      
+        <span title="icon-mask" class="icon-mask"></span>                     
+        <span title="icon-megaphone" class="icon-megaphone"></span>                
+        <span title="icon-menu" class="icon-menu"></span>                     
+        <span title="icon-message" class="icon-message"></span>                  
+        <span title="icon-mic" class="icon-mic"></span>                      
+        <span title="icon-mobile" class="icon-mobile"></span>                   
+        <span title="icon-modern-mic" class="icon-modern-mic"></span>               
+        <span title="icon-moon" class="icon-moon"></span>                     
+        <span title="icon-old-mobile" class="icon-old-mobile"></span>               
+        <span title="icon-old-phone" class="icon-old-phone"></span>                
+        <span title="icon-paper-plane" class="icon-paper-plane"></span>              
+        <span title="icon-phone" class="icon-phone"></span>                    
+        <span title="icon-pie-chart" class="icon-pie-chart"></span>                
+        <span title="icon-pin" class="icon-pin"></span>                      
+        <span title="icon-plus" class="icon-plus"></span>                     
+        <span title="icon-popup" class="icon-popup"></span>                    
+        <span title="icon-price-tag" class="icon-price-tag"></span>                
+        <span title="icon-print" class="icon-print"></span>                    
+        <span title="icon-publish" class="icon-publish"></span>                  
+        <span title="icon-reply-all" class="icon-reply-all"></span>                
+        <span title="icon-reply" class="icon-reply"></span>                    
+        <span title="icon-retweet" class="icon-retweet"></span>                  
+        <span title="icon-share-alternitive" class="icon-share-alternitive"></span>        
+        <span title="icon-shopping-basket" class="icon-shopping-basket"></span>          
+        <span title="icon-shopping-cart" class="icon-shopping-cart"></span>            
+        <span title="icon-shuffle" class="icon-shuffle"></span>                  
+        <span title="icon-signal" class="icon-signal"></span>                   
+        <span title="icon-sound-mix" class="icon-sound-mix"></span>                
+        <span title="icon-squared-cross" class="icon-squared-cross"></span>            
+        <span title="icon-squared-minus" class="icon-squared-minus"></span>            
+        <span title="icon-squared-plus" class="icon-squared-plus"></span>             
+        <span title="icon-star-outlined" class="icon-star-outlined"></span>            
+        <span title="icon-star" class="icon-star"></span>                     
+        <span title="icon-switch" class="icon-switch"></span>                   
+        <span title="icon-tablet" class="icon-tablet"></span>                   
+        <span title="icon-thumbs-down" class="icon-thumbs-down"></span>              
+        <span title="icon-thumbs-up" class="icon-thumbs-up"></span>                
+        <span title="icon-time-slot" class="icon-time-slot"></span>                
+        <span title="icon-tools" class="icon-tools"></span>                    
+        <span title="icon-traffic-cone" class="icon-traffic-cone"></span>             
+        <span title="icon-user" class="icon-user"></span>                     
+        <span title="icon-users" class="icon-users"></span>                    
+        <span title="icon-facebook" class="icon-facebook"></span>                 
+        <span title="icon-google" class="icon-google"></span>                   
+        <span title="icon-twitter" class="icon-twitter"></span>                  
+        <span title="icon-youtube" class="icon-youtube"></span>
+      </div>
+    </div>
+  </div>
+</div>             
+*/
+
+
 @font-face {
-	font-family: @icon-font-name;
-	src:url('@{icon-font-path}@{icon-font-name}.eot?fo0l9i');
-	src:url('@{icon-font-path}@{icon-font-name}.eot?#iefixfo0l9i') format('embedded-opentype'),
-		url('@{icon-font-path}@{icon-font-name}.woff?fo0l9i') format('woff'),
-		url('@{icon-font-path}@{icon-font-name}.ttf?fo0l9i') format('truetype'),
-		url('@{icon-font-path}@{icon-font-name}.svg?fo0l9i#bumeranicons') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: @icon-font-name;
+  src:url('@{icon-font-path}@{icon-font-name}.eot?fo0l9i');
+  src:url('@{icon-font-path}@{icon-font-name}.eot?#iefixfo0l9i') format('embedded-opentype'),
+    url('@{icon-font-path}@{icon-font-name}.woff?fo0l9i') format('woff'),
+    url('@{icon-font-path}@{icon-font-name}.ttf?fo0l9i') format('truetype'),
+    url('@{icon-font-path}@{icon-font-name}.svg?fo0l9i#bumeranicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: @icon-font-name;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+  font-family: @icon-font-name;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-remove-user:before              {	content: "\e600"; }
-.icon-chevron-down:before             {	content: "\e601"; }
-.icon-chevron-left:before             {	content: "\e602"; }
-.icon-chevron-right:before            {	content: "\e603"; }
-.icon-chevron-small-down:before       {	content: "\e604"; }
-.icon-chevron-small-left:before       {	content: "\e605"; }
-.icon-chevron-small-right:before      {	content: "\e606"; }
-.icon-chevron-small-up:before         {	content: "\e607"; }
-.icon-chevron-thin-down:before        {	content: "\e608"; }
-.icon-chevron-thin-left:before        {	content: "\e609"; }
-.icon-chevron-thin-right:before       {	content: "\e60a"; }
-.icon-chevron-thin-up:before          {	content: "\e60b"; }
-.icon-chevron-up:before               {	content: "\e60c"; }
-.icon-cloud:before                    {	content: "\e60d"; }
-.icon-dots-three-horizontal:before    {	content: "\e60e"; }
-.icon-dots-three-vertical:before      {	content: "\e60f"; }
-.icon-download:before                 {	content: "\e610"; }
-.icon-install:before                  {	content: "\e611"; }
-.icon-resize-100:before               {	content: "\e612"; }
-.icon-resize-full-screen:before       {	content: "\e613"; }
-.icon-select-arrows:before            {	content: "\e614"; }
-.icon-trash:before                    {	content: "\e615"; }
-.icon-triangle-down:before            {	content: "\e616"; }
-.icon-triangle-left:before            {	content: "\e617"; }
-.icon-triangle-right:before           {	content: "\e618"; }
-.icon-triangle-up:before              {	content: "\e619"; }
-.icon-upload-to-cloud:before          {	content: "\e61a"; }
-.icon-upload:before                   {	content: "\e61b"; }
-.icon-add-user:before                 {	content: "\e61c"; }
-.icon-address:before                  {	content: "\e61d"; }
-.icon-aircraft-landing:before         {	content: "\e61e"; }
-.icon-aircraft-take-off:before        {	content: "\e61f"; }
-.icon-aircraft:before                 {	content: "\e620"; }
-.icon-archive:before                  {	content: "\e621"; }
-.icon-area-graph:before               {	content: "\e622"; }
-.icon-attachment:before               {	content: "\e623"; }
-.icon-back-in-time:before             {	content: "\e624"; }
-.icon-bar-graph:before                {	content: "\e625"; }
-.icon-block:before                    {	content: "\e626"; }
-.icon-browser:before                  {	content: "\e627"; }
-.icon-calculator:before               {	content: "\e628"; }
-.icon-calendar:before                 {	content: "\e629"; }
-.icon-camera:before                   {	content: "\e62a"; }
-.icon-ccw:before                      {	content: "\e62b"; }
-.icon-check:before                    {	content: "\e62c"; }
-.icon-circle-with-cross:before        {	content: "\e62d"; }
-.icon-circle-with-minus:before        {	content: "\e62e"; }
-.icon-circle-with-plus:before         {	content: "\e62f"; }
-.icon-code:before                     {	content: "\e630"; }
-.icon-cog:before                      {	content: "\e631"; }
-.icon-colours:before                  {	content: "\e632"; }
-.icon-credit-card:before              {	content: "\e633"; }
-.icon-credit:before                   {	content: "\e634"; }
-.icon-cross:before                    {	content: "\e635"; }
-.icon-cup:before                      {	content: "\e636"; }
-.icon-database:before                 {	content: "\e637"; }
-.icon-documents:before                {	content: "\e638"; }
-.icon-edit:before                     {	content: "\e639"; }
-.icon-email:before                    {	content: "\e63a"; }
-.icon-emoji-happy:before              {	content: "\e63b"; }
-.icon-emoji-neutral:before            {	content: "\e63c"; }
-.icon-emoji-sad:before                {	content: "\e63d"; }
-.icon-erase:before                    {	content: "\e63e"; }
-.icon-export:before                   {	content: "\e63f"; }
-.icon-eye:before                      {	content: "\e640"; }
-.icon-forward:before                  {	content: "\e641"; }
+.icon-remove-user:before              { content: "\e600"; }
+.icon-chevron-down:before             { content: "\e601"; }
+.icon-chevron-left:before             { content: "\e602"; }
+.icon-chevron-right:before            { content: "\e603"; }
+.icon-chevron-small-down:before       { content: "\e604"; }
+.icon-chevron-small-left:before       { content: "\e605"; }
+.icon-chevron-small-right:before      { content: "\e606"; }
+.icon-chevron-small-up:before         { content: "\e607"; }
+.icon-chevron-thin-down:before        { content: "\e608"; }
+.icon-chevron-thin-left:before        { content: "\e609"; }
+.icon-chevron-thin-right:before       { content: "\e60a"; }
+.icon-chevron-thin-up:before          { content: "\e60b"; }
+.icon-chevron-up:before               { content: "\e60c"; }
+.icon-cloud:before                    { content: "\e60d"; }
+.icon-dots-three-horizontal:before    { content: "\e60e"; }
+.icon-dots-three-vertical:before      { content: "\e60f"; }
+.icon-download:before                 { content: "\e610"; }
+.icon-install:before                  { content: "\e611"; }
+.icon-resize-100:before               { content: "\e612"; }
+.icon-resize-full-screen:before       { content: "\e613"; }
+.icon-select-arrows:before            { content: "\e614"; }
+.icon-trash:before                    { content: "\e615"; }
+.icon-triangle-down:before            { content: "\e616"; }
+.icon-triangle-left:before            { content: "\e617"; }
+.icon-triangle-right:before           { content: "\e618"; }
+.icon-triangle-up:before              { content: "\e619"; }
+.icon-upload-to-cloud:before          { content: "\e61a"; }
+.icon-upload:before                   { content: "\e61b"; }
+.icon-add-user:before                 { content: "\e61c"; }
+.icon-address:before                  { content: "\e61d"; }
+.icon-aircraft-landing:before         { content: "\e61e"; }
+.icon-aircraft-take-off:before        { content: "\e61f"; }
+.icon-aircraft:before                 { content: "\e620"; }
+.icon-archive:before                  { content: "\e621"; }
+.icon-area-graph:before               { content: "\e622"; }
+.icon-attachment:before               { content: "\e623"; }
+.icon-back-in-time:before             { content: "\e624"; }
+.icon-bar-graph:before                { content: "\e625"; }
+.icon-block:before                    { content: "\e626"; }
+.icon-browser:before                  { content: "\e627"; }
+.icon-calculator:before               { content: "\e628"; }
+.icon-calendar:before                 { content: "\e629"; }
+.icon-camera:before                   { content: "\e62a"; }
+.icon-ccw:before                      { content: "\e62b"; }
+.icon-check:before                    { content: "\e62c"; }
+.icon-circle-with-cross:before        { content: "\e62d"; }
+.icon-circle-with-minus:before        { content: "\e62e"; }
+.icon-circle-with-plus:before         { content: "\e62f"; }
+.icon-code:before                     { content: "\e630"; }
+.icon-cog:before                      { content: "\e631"; }
+.icon-colours:before                  { content: "\e632"; }
+.icon-credit-card:before              { content: "\e633"; }
+.icon-credit:before                   { content: "\e634"; }
+.icon-cross:before                    { content: "\e635"; }
+.icon-cup:before                      { content: "\e636"; }
+.icon-database:before                 { content: "\e637"; }
+.icon-documents:before                { content: "\e638"; }
+.icon-edit:before                     { content: "\e639"; }
+.icon-email:before                    { content: "\e63a"; }
+.icon-emoji-happy:before              { content: "\e63b"; }
+.icon-emoji-neutral:before            { content: "\e63c"; }
+.icon-emoji-sad:before                { content: "\e63d"; }
+.icon-erase:before                    { content: "\e63e"; }
+.icon-export:before                   { content: "\e63f"; }
+.icon-eye:before                      { content: "\e640"; }
+.icon-forward:before                  { content: "\e641"; }
 .icon-funnel:before                   { content: "\e642"; }
-.icon-gauge:before                    {	content: "\e643"; }
-.icon-globe:before                    {	content: "\e644"; }
-.icon-graduation-cap:before           {	content: "\e645"; }
-.icon-hair-cross:before               {	content: "\e646"; }
-.icon-hand:before                     {	content: "\e647"; }
-.icon-heart-outlined:before           {	content: "\e648"; }
-.icon-heart:before                    {	content: "\e649"; }
-.icon-home:before                     {	content: "\e64a"; }
-.icon-hour-glass:before               {	content: "\e64b"; }
-.icon-image-inverted:before           {	content: "\e64c"; }
-.icon-image:before                    {	content: "\e64d"; }
-.icon-images:before                   {	content: "\e64e"; }
-.icon-info-with-circle:before         {	content: "\e64f"; }
-.icon-key:before                      {	content: "\e650"; }
-.icon-laptop:before                   {	content: "\e651"; }
-.icon-location-pin:before             {	content: "\e652"; }
-.icon-location:before                 {	content: "\e653"; }
-.icon-lock-open:before                {	content: "\e654"; }
-.icon-lock:before                     {	content: "\e655"; }
-.icon-log-out:before                  {	content: "\e656"; }
-.icon-login:before                    {	content: "\e657"; }
-.icon-magnifying-glass:before         {	content: "\e658"; }
-.icon-mail:before                     {	content: "\e659"; }
-.icon-man:before                      {	content: "\e65a"; }
-.icon-map:before                      {	content: "\e65b"; }
-.icon-mask:before                     {	content: "\e65c"; }
-.icon-megaphone:before                {	content: "\e65d"; }
-.icon-menu:before                     {	content: "\e65e"; }
-.icon-message:before                  {	content: "\e65f"; }
-.icon-mic:before                      {	content: "\e660"; }
-.icon-mobile:before                   {	content: "\e661"; }
-.icon-modern-mic:before               {	content: "\e662"; }
-.icon-moon:before                     {	content: "\e663"; }
-.icon-old-mobile:before               {	content: "\e664"; }
-.icon-old-phone:before                {	content: "\e665"; }
-.icon-paper-plane:before              {	content: "\e666"; }
-.icon-phone:before                    {	content: "\e667"; }
-.icon-pie-chart:before                {	content: "\e668"; }
-.icon-pin:before                      {	content: "\e669"; }
-.icon-plus:before                     {	content: "\e66a"; }
-.icon-popup:before                    {	content: "\e66b"; }
-.icon-price-tag:before                {	content: "\e66c"; }
-.icon-print:before                    {	content: "\e66d"; }
-.icon-publish:before                  {	content: "\e66e"; }
-.icon-reply-all:before                {	content: "\e66f"; }
-.icon-reply:before                    {	content: "\e670"; }
-.icon-retweet:before                  {	content: "\e671"; }
-.icon-share-alternitive:before        {	content: "\e672"; }
-.icon-shopping-basket:before          {	content: "\e673"; }
-.icon-shopping-cart:before            {	content: "\e674"; }
-.icon-shuffle:before                  {	content: "\e675"; }
-.icon-signal:before                   {	content: "\e676"; }
-.icon-sound-mix:before                {	content: "\e677"; }
-.icon-squared-cross:before            {	content: "\e678"; }
-.icon-squared-minus:before            {	content: "\e679"; }
-.icon-squared-plus:before             {	content: "\e67a"; }
-.icon-star-outlined:before            {	content: "\e67b"; }
-.icon-star:before                     {	content: "\e67c"; }
-.icon-switch:before                   {	content: "\e67d"; }
-.icon-tablet:before                   {	content: "\e67e"; }
-.icon-thumbs-down:before              {	content: "\e67f"; }
-.icon-thumbs-up:before                {	content: "\e680"; }
-.icon-time-slot:before                {	content: "\e681"; }
-.icon-tools:before                    {	content: "\e682"; }
-.icon-traffic-cone:before             {	content: "\e683"; }
-.icon-user:before                     {	content: "\e684"; }
-.icon-users:before                    {	content: "\e685"; }
-.icon-facebook:before                 {	content: "\e686"; }
-.icon-google:before                   {	content: "\e687"; }
-.icon-twitter:before                  {	content: "\e688"; }
-.icon-youtube:before                  {	content: "\e689"; }
+.icon-gauge:before                    { content: "\e643"; }
+.icon-globe:before                    { content: "\e644"; }
+.icon-graduation-cap:before           { content: "\e645"; }
+.icon-hair-cross:before               { content: "\e646"; }
+.icon-hand:before                     { content: "\e647"; }
+.icon-heart-outlined:before           { content: "\e648"; }
+.icon-heart:before                    { content: "\e649"; }
+.icon-home:before                     { content: "\e64a"; }
+.icon-hour-glass:before               { content: "\e64b"; }
+.icon-image-inverted:before           { content: "\e64c"; }
+.icon-image:before                    { content: "\e64d"; }
+.icon-images:before                   { content: "\e64e"; }
+.icon-info-with-circle:before         { content: "\e64f"; }
+.icon-key:before                      { content: "\e650"; }
+.icon-laptop:before                   { content: "\e651"; }
+.icon-location-pin:before             { content: "\e652"; }
+.icon-location:before                 { content: "\e653"; }
+.icon-lock-open:before                { content: "\e654"; }
+.icon-lock:before                     { content: "\e655"; }
+.icon-log-out:before                  { content: "\e656"; }
+.icon-login:before                    { content: "\e657"; }
+.icon-magnifying-glass:before         { content: "\e658"; }
+.icon-mail:before                     { content: "\e659"; }
+.icon-man:before                      { content: "\e65a"; }
+.icon-map:before                      { content: "\e65b"; }
+.icon-mask:before                     { content: "\e65c"; }
+.icon-megaphone:before                { content: "\e65d"; }
+.icon-menu:before                     { content: "\e65e"; }
+.icon-message:before                  { content: "\e65f"; }
+.icon-mic:before                      { content: "\e660"; }
+.icon-mobile:before                   { content: "\e661"; }
+.icon-modern-mic:before               { content: "\e662"; }
+.icon-moon:before                     { content: "\e663"; }
+.icon-old-mobile:before               { content: "\e664"; }
+.icon-old-phone:before                { content: "\e665"; }
+.icon-paper-plane:before              { content: "\e666"; }
+.icon-phone:before                    { content: "\e667"; }
+.icon-pie-chart:before                { content: "\e668"; }
+.icon-pin:before                      { content: "\e669"; }
+.icon-plus:before                     { content: "\e66a"; }
+.icon-popup:before                    { content: "\e66b"; }
+.icon-price-tag:before                { content: "\e66c"; }
+.icon-print:before                    { content: "\e66d"; }
+.icon-publish:before                  { content: "\e66e"; }
+.icon-reply-all:before                { content: "\e66f"; }
+.icon-reply:before                    { content: "\e670"; }
+.icon-retweet:before                  { content: "\e671"; }
+.icon-share-alternitive:before        { content: "\e672"; }
+.icon-shopping-basket:before          { content: "\e673"; }
+.icon-shopping-cart:before            { content: "\e674"; }
+.icon-shuffle:before                  { content: "\e675"; }
+.icon-signal:before                   { content: "\e676"; }
+.icon-sound-mix:before                { content: "\e677"; }
+.icon-squared-cross:before            { content: "\e678"; }
+.icon-squared-minus:before            { content: "\e679"; }
+.icon-squared-plus:before             { content: "\e67a"; }
+.icon-star-outlined:before            { content: "\e67b"; }
+.icon-star:before                     { content: "\e67c"; }
+.icon-switch:before                   { content: "\e67d"; }
+.icon-tablet:before                   { content: "\e67e"; }
+.icon-thumbs-down:before              { content: "\e67f"; }
+.icon-thumbs-up:before                { content: "\e680"; }
+.icon-time-slot:before                { content: "\e681"; }
+.icon-tools:before                    { content: "\e682"; }
+.icon-traffic-cone:before             { content: "\e683"; }
+.icon-user:before                     { content: "\e684"; }
+.icon-users:before                    { content: "\e685"; }
+.icon-facebook:before                 { content: "\e686"; }
+.icon-google:before                   { content: "\e687"; }
+.icon-twitter:before                  { content: "\e688"; }
+.icon-youtube:before                  { content: "\e689"; }
