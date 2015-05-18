@@ -6266,7 +6266,7 @@ li:last-child .categories__link {
 .mycv__language {
   display: block;
   padding: 10px 0;
-  background: url(skins/bumeran/img/generic-language.png) no-repeat 12px center;
+  background: url(img/generic-language.png) no-repeat 12px center;
   -webkit-background-size: 32px 32px;
           background-size: 32px 32px;
 }
@@ -6299,10 +6299,10 @@ li:last-child .categories__link {
   border-top: 1px solid #E6E6E6;
 }
 .mycv__language.mycv_language--english {
-  background-image: url(skins/bumeran/img/english-flag.png);
+  background-image: url(img/english-flag.png);
 }
 .mycv__language.mycv_language--portuguese {
-  background-image: url(skins/bumeran/img/portuguese-flag.png);
+  background-image: url(img/portuguese-flag.png);
 }
 .mycv__language-title {
   width: 175px;
