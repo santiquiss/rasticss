@@ -1,0 +1,62 @@
+{
+  "logged" : false,
+  "names" : "Santiago",
+  "lastNames": "Quiss",
+  "photoUrl": "http://www.bumeran.com.ar/portal/img/postulantes/0/0/8/5/3/4/5/5/7/0/cvMainPic_85345570.jpg",
+  "email": "santiquiss@gmail.com",
+  "dateOfBirth": "01/59/83",
+  "age": "31",
+  "maritalStatus": "Soltero",
+  "documentType": "DNI",
+  "documentNumber": "30.391.792",
+  "mainTelephoneNumber": "11 59526887",
+  "addressStreet": "Cabrera 5354",
+  "addressLocality": "Palermo, CABA",
+  "workExperiences":[
+    {
+      "title": "Administrativo contable",
+      "companyName": "Bumeran.com",
+      "description": "Encargado del desarrollo del front end del portal y la concepción de nuevos productos. Creación de bocetos y product sheets con detalles del funcionamiento y L&F del portal. Coordinación con el área de desarrollo para la puesta en funcionamiento de nuevas funcionalidades.",
+      "peopleInCharge": 2,
+      "ownBudget": true,
+      "dateStart": "Mar 2012",
+      "dateEnd": "Presente"
+    },
+    {
+      "title": "In Room Dining Server",
+      "companyName": "The Ritz Carlton Bachelor",
+      "description": "Analizar los problemas y desafíos de los usuarios de bumeran y diseñar interfaces eficientes y fáciles de usar. Conceptualizar, bocetar y crear prototipos. Realizar tests con usuarios. Maquetar los diseños en forma eficiente y performante. Creación de una hoja de estilo global y plugins en JQuery para el manejo de elementos comunes de la UI. Optimización de los recursos utilizados para manejar un alto tráfico.",
+      "dateStart": "Abr 2009",
+      "dateEnd": "Mar 2012"
+    }
+  ],
+  "studies":[
+    {
+      "title": "Contador",
+      "institution": "Universidad de Buenos Aires",
+      "dateStart": "Mar 2003",
+      "dateEnd": "Dic 2009"
+    }
+  ],
+  "languages":[
+    {
+      "codeName": "english",
+      "name": "Inglés",
+      "oralLevel": "Avanzado",
+      "writtenLevel": "Avanzado"
+    },
+    {
+      "codeName": "portuguese",
+      "name": "Portugués",
+      "oralLevel": "Básico",
+      "writtenLevel": "Básico"
+    }
+  ],
+  "additionalKnowledges": [
+    {
+      "title": "Administración",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis urna fermentum, sagittis eros sed, porta arcu. Cras vulputate urna lorem, tempor lobortis ligula pharetra ut. Integer vel nibh interdum, venenatis nunc in, sodales nisl. Donec cursus sed eros suscipit malesuada."
+    }
+  ],
+  "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis urna fermentum, sagittis eros sed, porta arcu. Cras vulputate urna lorem, tempor lobortis ligula pharetra ut. Integer vel nibh interdum, venenatis nunc in, sodales nisl. Donec cursus sed eros suscipit malesuada."
+}

@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     less: {
       style: {
         files: {
-          "bumeran.css": "skins/bumeran/bumeran.less"
+          "skins/bumeran/styles/bumeran.css": "skins/bumeran/styles/bumeran.less"
         },
         options: {
           compress: false
@@ -27,14 +27,14 @@ module.exports = function(grunt) {
         ]
       },
       core: {
-        src: 'bumeran.css'
+        src: 'skins/bumeran/styles/bumeran.css'
       }
     },
 
     cssmin: {
       target: {
         files: {
-          'bumeran.min.css': 'bumeran.css'
+          'skins/bumeran/styles/bumeran.min.css': 'skins/bumeran/styles/bumeran.css'
         }
       }
     },
@@ -55,10 +55,10 @@ module.exports = function(grunt) {
     dss: {
       docs: {
         files: {
-          'docs/': 'bumeran.css'
+          'skins/bumeran/styleguide/': 'skins/bumeran/styles/bumeran.css'
         },
         options: {
-          template: 'docs_themes/',
+          template: 'rasti_core/styleguide/',
           include_empty_files: false,
           parsers: {
             unique_id: function(i, line, block){
