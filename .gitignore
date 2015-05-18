@@ -12,3 +12,7 @@
 
 # sftp configuration file
 sftp-config.json
+
+# Node Dependencies
+node_modules/
+node_modules/**
