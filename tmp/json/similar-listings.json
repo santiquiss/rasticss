@@ -1,0 +1,87 @@
+{
+  "groupedListings": [
+    {
+      "company" : {
+        "name" : "Sofrecom",
+        "logoUrl" : "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/3/5/7/3/3/0/logoMainPic_357330.jpg",
+        "url" : "#"
+      },
+      "listings" : [
+        {
+          "title" : "Jóvenes Profesionales",
+          "publishedWhen" : "53 min",
+          "url" : "#" 
+        }
+      ]
+    },
+    {
+      "company" : {
+        "name" : "Pullmen Servicion Empresarios",
+        "logoUrl" : "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/2/1/5/4/9/6/0/logoMainPic_2154960.jpg",
+        "url" : "#"
+      },
+      "listings" : [
+        {
+          "title" : "Supervisores de Servicio / Operaciones para empresa de recolección de residuos (CABA)",
+          "publishedWhen" : "Ayer",
+          "url" : "#" 
+        }
+      ]
+    },
+    {
+      "company" : {
+        "name" : "Despegar.com",
+        "logoUrl" : "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/0/1/1/9/7/0/logoMainPic_11970.jpg",
+        "url" : "#"
+      },
+      "listings" : [
+        {
+          "title" : "Analista Jr",
+          "publishedWhen" : "Ayer",
+          "url" : "#" 
+        }
+      ]
+    },
+    {
+      "company" : {
+        "name" : "Bumeran.com",
+        "logoUrl" : "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/2/1/9/6/7/4/0/logoMainPic_2196740_aviso_1002127435.jpg",
+        "url" : "#"
+      },
+      "listings" : [
+        {
+          "title" : "¡Buscamos los mejores ejecutivos de ventas!",
+          "publishedWhen" : "2 días",
+          "url" : "#" 
+        },
+        {
+          "title" : "Analista de bases de datos",
+          "publishedWhen" : "3 días",
+          "url" : "#" 
+        }
+      ]
+    },
+    {
+      "company" : {
+        "name" : "ISS ARGENTINA",
+        "url" : "#"
+      },
+      "listings" : [
+        {
+          "title" : "Técnico Superior en Higiene y Seguridad",
+          "publishedWhen" : "2 días",
+          "url" : "#" 
+        }
+      ]
+    },
+    {
+      "listings" : [
+        {
+          "title" : "Analista Técnico PeopleSoft",
+          "publishedWhen" : "3 días",
+          "url" : "#" 
+        }
+      ]
+    }
+  ]
+}

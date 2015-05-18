@@ -1,0 +1,166 @@
+<!--<div class="backdrop"></div>-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <div class="row">
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="micv.html" class="btn btn--primary btn--sm mycv__section-edit-btn">Guardar</a>
+            <a href="micv.html" class="btn btn--default btn--sm mycv__section-edit-btn">Cancelar</a>
+            <div class="mycv__section-title">Datos personales</div>
+          </div>
+          <div class="mycv__section-body mycv__section-body--edit">
+            <form method="post" action="micv.html">
+              <div class="row">
+                <div class="col-xs-3">
+                  <div class="mycv__edit-profile-photo-container">
+                    <img class="mycv__profile-photo" src="{{photoUrl}}">
+                    <a href="#" class="mycv__edit-profile-photo-btn">Cargar foto</a>
+                  </div>
+                </div>
+                <div class="col-xs-9">
+
+                  <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" value="{{names}}">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Apellido</label>
+                    <input type="text" class="form-control" value="{{lastNames}}">
+                  </div>
+
+                </div>
+                <div class="col-xs-12">
+
+                  <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="text" class="form-control" value="{{email}}" placeholder="Ingrese su e-mail">
+                  </div>
+
+                  <div class="form-group">
+                    <label>Fecha de Nacimiento</label>
+                    <div class="row row--narrow">
+                      <div class="col-xs-3">
+                        <div class="form-control--select">
+                          <select class="form-control">
+                            <option>01</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-xs-6">
+                        <div class="form-control--select">
+                          <select class="form-control">
+                            <option>Enero</option>
+                            <option>Febrero</option>
+                            <option>Marzo</option>
+                            <option>Abril</option>
+                            <option>Mayo</option>
+                            <option>Junio</option>
+                            <option>Julio</option>
+                            <option>Agosto</option>
+                            <option>Septiembre</option>
+                            <option>Octubre</option>
+                            <option>Noviembre</option>
+                            <option>Diciembre</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-xs-3">
+                        <div class="form-control--select">
+                          <select class="form-control">
+                            <option>83</option>
+                          </select>
+                        </div>
+                      </div> 
+                    </div>
+                  </div>
+
+                  <div class="row row--narrow">
+                    <div class="col-xs-12 col-md-6">
+                      <div class="form-group">
+                        <label>Sexo</label>
+                        <div class="form-control--select">
+                          <select class="form-control">
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <div class="form-group">
+                        <label>Estado civil</label>
+                        <div class="form-control--select">
+                          <select class="form-control">
+                            <option>Soltero</option>
+                            <option>Casado</option>
+                            <option>Divorciado</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Tipo y número de documento</label>
+                    <div class="row row--narrow">
+                      <div class="col-xs-6 col-md-5">
+                        <div class="form-control--select">
+                          <select class="form-control">
+                            <option>DNI</option>
+                            <option>Pasaporte</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-md-7">
+                        <input type="text" class="form-control" value="{{documentNumber}}">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row row--narrow">
+                    <div class="col-xs-12 col-md-6">
+                      <div class="form-group">
+                        <label>Teléfono celular</label>
+                        <input type="tel" class="form-control" value="{{mainTelephoneNumber}}">
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <div class="form-group">
+                        <label>Teléfono alternativo</label>
+                        <input type="tel" class="form-control" value="" placeholder="Teléfono alternativo">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="checkbox">
+                    <input id="mycv-disabled-checkbox" type="checkbox" value="">
+                    <label for="mycv-disabled-checkbox">Poseo alguna discapacidad <a href="#">¿Qué es esto?</a></label>
+                  </div>
+
+                  <div class="form-submit">
+                    <div class="row row--narrow">
+                      <div class="col-xs-5 col-lg-4">
+                        <a href="micv.html" class="btn btn--default btn--block btn--lg">Cancelar</a>
+                      </div>
+                      <div class="col-xs-7 col-lg-8">
+                        <button type="submit" class="btn btn--primary btn--block btn--lg">Guardar</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="fine-print">Bumeran.com Argentina S.A. es responsable por la Base de Datos registrada bajo el numero 1022 ante la Dirección Nacional de Protección de Datos Personales. El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto, conforme artículo 14 de la Ley 25.326. Puedes hacerlo personalmente o por correo postal a la dirección J.A. Cabrera 5354, CABA (C1414BGX), Argentina. La Dirección Nacional de Protección de Datos Personales, Órgano de Control de la Ley Nro. 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al cumplimiento de las normas sobre Protección de Datos Personales.</p>
+
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>         
+
+      </div>
+    </div>
+  </div>
+</div>

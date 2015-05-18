@@ -1,0 +1,60 @@
+<div class="container listings-container">
+
+  <div class="filters-overlay js-class-toggler" data-element=".listings-container" data-class="listings-container--filters-visible"></div>
+
+  <div class="row">
+
+    <div class="col-xs-12">
+      <a href="#" class="btn btn--primary btn--sm filters__toggle js-class-toggler" data-element=".listings-container" data-class="listings-container--filters-visible">Filtrar</a>
+      <h1 class="h4 listings__title">{{listingsTitle}}</h1>
+    </div>
+
+    <div class="col-sm-4 col-lg-3">
+      <div class="filters">
+        
+        <div class="filters__applied-filters-container">
+
+          {{#appliedFilters}}
+          <div class="filters__applied-filter">
+            <a href="#" class="filters__applied-filter__close">&times;</a>
+            {{name}}
+          </div>
+          {{/appliedFilters}}
+
+        </div>
+
+        {{#filtersGroups}}
+        <div class="filters__title">{{title}}</div>
+        <ul class="filters__list {{#doubleColumnLayout}}filters__list--double-column{{/doubleColumnLayout}}">
+          {{#filters}}
+          <li>
+            <a href="#" data-count="{{count}}" title="{{name}}">
+              <span class="filters_list_filter-container">
+                <span class="filters__list__filter-name" data-count="{{count}}">
+                  {{name}}
+                  <span class="filters__list__filter-count">({{count}})</span>
+                </span>
+              </span>
+            </a>
+          </li>
+          {{/filters}}
+        </ul>
+        {{/filtersGroups}}
+
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-lg-9">
+
+      <div class="listings-masonry">
+        {{#listings}}
+        <a href="{{url}}" class="listing {{#isnew}}listing--new{{/isnew}}">
+          
+        </a>
+        {{/listings}}
+      </div>
+
+    </div>
+
+  </div>
+</div>

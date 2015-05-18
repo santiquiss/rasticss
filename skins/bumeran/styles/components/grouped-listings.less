@@ -1,0 +1,118 @@
+/**
+@name Grouped Listings
+@unique_id grouped-listings
+@description These are listings grouped by company, to be used in the homepage or in related listings inside the listing details. 
+@markup
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- Starts Here -->
+      <div class="grouped-listings-container">
+        <div class="grouped-listing">
+          <div class="grouped-listing__inner">
+            <img class="grouped-listing__company-logo" src="http://placehold.it/88x56" height="56" width="88">
+            <a href="listing-detail.html" class="grouped-listing__company-name">Sofrecom</a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Jóvenes Profesionales <span class="grouped-listing__time-published">53 min</span></a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Analista de compras <span class="grouped-listing__time-published">3 h</span></a>
+          </div>
+        </div>
+        <div class="grouped-listing">
+          <div class="grouped-listing__inner">
+            <img class="grouped-listing__company-logo" src="http://placehold.it/88x56" height="56" width="88">
+            <a href="listing-detail.html" class="grouped-listing__company-name">Pullmen Servicios Empresarios</a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Supervisores de Servicio / Operaciones para empresa de recolección de residuos (CABA) <span class="grouped-listing__time-published">Ayer</span></a>
+          </div>
+        </div>
+        <div class="grouped-listing">
+          <div class="grouped-listing__inner">
+            <img class="grouped-listing__company-logo" src="http://placehold.it/88x56" height="56" width="88">
+            <a href="listing-detail.html" class="grouped-listing__company-name">Pullmen Servicios Empresarios</a>
+            <a href="listing-detail.html" class="grouped-listing__job-title">Supervisores de Servicio / Operaciones para empresa de recolección de residuos (CABA) <span class="grouped-listing__time-published">Ayer</span></a>
+          </div>
+        </div>
+      </div>
+      <!-- Ends Here -->
+    </div>
+  </div>
+</div>  
+*/
+.grouped-listings-container {
+  margin: 0 -7px 30px;
+  @media (min-width: @screen-sm-min) {
+    column-count: 2;
+  }
+  @media (min-width: @screen-lg-min) {
+    column-count: 3;
+  }
+}
+// No columns in the listing detail page
+#listing-detail-page {
+  .grouped-listings-container {
+    @media (min-width: @screen-sm-min) {
+      column-count: 1;
+    }
+    @media (min-width: @screen-lg-min) {
+      column-count: 1;
+    }
+  }
+}
+.grouped-listing {
+  margin: 0 8px;
+  padding: 5px 0 8px;
+  break-inside: avoid;
+  @media (min-width: @screen-sm-min) {
+    padding: 5px 0 20px;
+  }
+}
+.grouped-listing__inner {
+  border-radius: 4px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5);
+}
+.grouped-listing__company-logo {
+  float: right;
+  margin: 8px;
+  position: relative;
+  z-index: @zindex-posting-logo;
+}
+.grouped-listing__company-name {
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #000;
+  display: block;
+  padding: 10px 12px 11px;
+  position: relative;
+  &:hover {
+    text-decoration: none;
+    color: #000;
+    #gradient .horizontal(rgba(204,204,204,.1),rgba(204,204,204,0),0%,60%);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    #gradient .horizontal(#ccc,rgba(204,204,204,0),0%,60%);
+    bottom: 0;
+    left: 0;
+  }
+}
+.grouped-listing__job-title {
+  display: block;
+  padding: 10px 12px;
+  border-bottom: 1px solid #ccc;
+  line-height: 1.2em;
+  &:last-child {
+    border-bottom: none;
+  }
+  &:hover {
+    #gradient .horizontal(rgba(204,204,204,.1),rgba(204,204,204,0),0%,60%);
+    text-decoration: none;
+  }
+}
+.grouped-listing__time-published {
+  color: #696969;
+  font-size: 13px;
+  font-weight: 300;
+  white-space: nowrap;
+}

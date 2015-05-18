@@ -1,0 +1,306 @@
+.listings-container {
+  margin-bottom: 50px;
+  position: relative;
+}
+.listings__title {
+  margin: 18px 0 17px;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 17px;
+  @media (min-width: @screen-sm-min) {
+    font-size: 20px;
+    margin: 16px 0 17px;
+    padding: 0 2px;
+  }
+}
+.listing {
+  .clearfix();
+  display: block;
+  border: 1px solid #E6E6E6;
+  border-left: none;
+  border-right: none;
+  background: #fff;
+  margin: 0 -15px;
+  padding: 10px 10px 10px 12px;
+  & + & {
+    margin-top: -1px;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  @media (min-width: @screen-sm-min) {
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 11px 11px 11px 13px;
+    &:first-child {
+      border-radius: 3px 3px 0 0;
+    }
+    &:last-child {
+      border-radius: 0 0 3px 3px;
+    }
+  }
+}
+.listing__company-logo {
+  float: right;
+  margin-left: 10px;
+  height: 44px;
+  width: 69px;
+  @media (min-width: @screen-sm-min) {
+    height: 50px;
+    width: 79px;
+    margin-left: 30px;
+  }
+}
+.listing__job-title {
+  display: block;
+  line-height: 1.2em;
+  padding-top: 2px;
+  margin-bottom: 2px;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media (min-width: @screen-sm-min) {
+    font-size: 19px;
+    margin-bottom: 4px;
+  }
+}
+.listing__company-name {
+  font-size: 15px;
+  color: #222;
+  font-weight: 300;
+  margin-right: 5px;
+  @media (min-width: @screen-sm-min) {
+    font-size: 17px;
+  }
+  .listing--new & {
+    &:before {
+      content: 'HOY';
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 500;
+      padding: 3px 7px 2px;
+      border-radius: 10px;
+      background: #FF465D;
+      color: #fff;
+      margin: 0px 10px 0 0;
+      position: relative;
+      top: -1px;
+      @media (min-width: @screen-sm-min) {
+        font-size: 11px;
+        padding: 3px 9px 2px;
+        margin: 0px 10px 0 -20px;
+      }
+    }
+  }
+}
+.listing__time-published {
+  color: #aaa;
+  font-size: 13px;
+  font-weight: 300;
+  white-space: nowrap;
+  @media (min-width: @screen-sm-min) {
+    font-size: 15px;
+  }
+}
+.filters {
+  background: #fff;
+  padding: 10px;
+  border-radius: 0 0 3px 0;
+  position: absolute;
+  top: 0;
+  z-index: @zindex-filters;
+  width: 250px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  .no-csstransforms3d & {
+    left: -600px;
+    transition: left .2s;
+    @media (min-width: @screen-sm-min) {
+      left: auto;
+    }
+  }
+  .csstransforms3d & {
+    transition: transform .2s;
+    transform: translateX(-600px);
+    @media (min-width: @screen-sm-min) {
+      left: auto;
+      transform: translateX(0);
+    }
+  }
+  .listings-container--filters-visible & {
+    display: block;
+    .no-csstransforms3d & {
+      left: 0;
+    }
+    .csstransforms3d & {
+      transform: translateX(-15px);
+    }
+  }
+  @media (min-width: @screen-sm-min) {
+    border: 1px solid #E6E6E6;
+    position: static;
+    top: auto;
+    width: auto;
+    border-radius: 3px;
+    box-shadow: none;
+  }
+}
+.filters-overlay {
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: @zindex-filters-overlay;
+  opacity: 0;
+  display: none;
+  .listings-container--filters-visible & {
+    opacity: 1;
+    display: block;
+    .pointerevents & { // Modernizr
+      pointer-events: auto;
+    }
+    @media (min-width: @screen-sm-min) {
+      display: none;
+    }
+  }
+  .pointerevents & { // Modernizr
+    display: block;
+    pointer-events: none;
+    transition: opacity .2s;
+  }
+}
+.filters__toggle {
+  float: right;
+  margin: 12px -4px 12px 10px;
+  @media (min-width: @screen-sm-min) {
+    display: none;
+  }
+}
+.filters__applied-filter {
+  display: block;
+  position: relative;
+  background: #FFF794;
+  padding: 5px 28px 4px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+.filters__applied-filter__close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border-radius: 3px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  width: 23px;
+  height: 23px;
+  line-height: 20px;
+  padding-left: 1px;
+  &:hover {
+    text-decoration: none;
+    background: #FF465D;
+    color: #fff;
+  }
+}
+.filters__title {
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.filters__list {
+  list-style: none;
+  padding-left: 0;
+  .clearfix();
+  margin: 0 -5px 10px;
+  li {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 5px 10px;
+    a {
+      display: block; 
+      text-align: center;
+      border: 1px solid #239DD8;
+      border-radius: 3px;
+      width: 100%;
+      line-height: 40px;
+      min-height: 42px;
+      max-height: 42px;
+      height: 42px;
+      overflow: hidden;
+      &:before {
+        content: "";
+        float: left;
+        width: 5px;
+        height: 42px;
+      }
+      &:after {
+        #gradient .horizontal(rgba(255, 255, 255, 0),#fff, 0%, 30%);
+        content: "("attr(data-count)")";  
+        float: right;
+        box-sizing: content-box;
+        position: relative;
+        top: -24px;
+        left: 97%; 
+        width: 40px;
+        margin-left: -40px;
+        padding-right: 5px;
+        line-height: 23px;
+        text-align: right;
+        font-size: 12px;
+        color: #aaa;
+      }
+      &:hover {
+        background: #239DD8;
+        color: #fff;
+        border: 1px solid #239DD8;
+        &:after {
+          color: #eee;
+          #gradient .horizontal(rgba(35,157,216, 0),#239DD8, 0%, 30%);
+        }
+        .filters__list__filter-count {
+          color: #eee;
+        }
+      }
+      .filters_list_filter-container {
+        display: block;
+        float: right;
+        margin-left: -5px;
+        width: 100%;
+      }
+      .filters__list__filter-name {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1.3em;
+        font-size: 15px;
+        width: 100%;
+        padding: 0 3px;
+        word-wrap: break-word;
+        hyphens: auto;
+      }
+      .filters__list__filter-count {
+        font-size: 12px;
+        color: #aaa;
+      }
+    }
+  }
+  &.filters__list--double-column {
+    li {
+      width: 50%;
+    }
+  }
+}

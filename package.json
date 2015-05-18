@@ -1,0 +1,23 @@
+{
+  "name": "Rasti",
+  "version": "0.0.1",
+  "description": "Rasti CSS is a web UI Framework full of reusable building blocks. It's built using LESS as a CSS preprocessor and jQuery for component behaviour. We ♥ Bootstrap, and most of this framework is based on it, but with several differences and more components, to make modern websites with modern patterns. Created by @santiquiss.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/santiquiss/rasticss.git"
+  },
+  "dependencies": {
+    "grunt-cli": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-express": "latest",
+    "grunt-open": "latest"
+  },
+  "devDependencies": {
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-dss": "^1.0.8"
+  }
+}

@@ -1,0 +1,308 @@
+/**
+@name Regular Buttons
+@unique_id regular-buttons
+@description Different colors and sizes for buttons
+
+@markup
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p>
+        <!-- Small buttons -->
+        <a class="btn btn--sm btn--default">Button</a>
+        <a class="btn btn--sm btn--primary">Button</a>
+        <a class="btn btn--sm btn--success">Button</a>
+        <a class="btn btn--sm btn--info">Button</a>
+        <a class="btn btn--sm btn--warning">Button</a>
+        <a class="btn btn--sm btn--danger">Button</a>
+        <!-- Ends here -->
+      </p>
+      <p>
+        <!-- Regular buttons -->
+        <a class="btn btn--default">Button</a>
+        <a class="btn btn--primary">Button</a>
+        <a class="btn btn--success">Button</a>
+        <a class="btn btn--info">Button</a>
+        <a class="btn btn--warning">Button</a>
+        <a class="btn btn--danger">Button</a>
+        <!-- Ends here -->
+      </p>
+      <p>
+        <!-- Large buttons -->
+        <a class="btn btn--lg btn--default">Button</a>
+        <a class="btn btn--lg btn--primary">Button</a>
+        <a class="btn btn--lg btn--success">Button</a>
+        <a class="btn btn--lg btn--info">Button</a>
+        <a class="btn btn--lg btn--warning">Button</a>
+        <a class="btn btn--lg btn--danger">Button</a>
+        <!-- Ends here -->
+      </p>
+    </div>      
+  </div>
+</div>
+*/ 
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.btn
+  font-weight: @btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
+  .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
+  .user-select(none);
+
+  &:hover,
+  &:focus,
+  &.focus {
+    color: @btn-default-color;
+    text-decoration: none;
+  }
+
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: @cursor-disabled;
+    pointer-events: none; // Future-proof disabling of clicks
+    .opacity(.65);
+    .box-shadow(none);
+  }
+
+  // Make icons inside buttons behave
+  [class^="icon-"], [class*=" icon-"] {
+    position: relative;
+    bottom: -2px;
+    left: 0;
+  }
+
+}
+
+
+// Alternate buttons
+// --------------------------------------------------
+
+.btn--default {
+  .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border; @btn-default-color-hover; @btn-default-bg-hover; @btn-default-border-hover);
+}
+.btn--primary {
+  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border; @btn-primary-color-hover; @btn-primary-bg-hover; @btn-primary-border-hover);
+}
+// Success appears as green
+.btn--success {
+  .button-variant(@btn-success-color; @btn-success-bg; @btn-success-border; @btn-success-color-hover; @btn-success-bg-hover; @btn-success-border-hover);
+}
+// Info appears as blue-green
+.btn--info {
+  .button-variant(@btn-info-color; @btn-info-bg; @btn-info-border; @btn-info-color-hover; @btn-info-bg-hover; @btn-info-border-hover);
+}
+// Warning appears as orange
+.btn--warning {
+  .button-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border; @btn-warning-color-hover; @btn-warning-bg-hover; @btn-warning-border-hover);
+}
+// Danger and error appear as red
+.btn--danger {
+  .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border; @btn-danger-color-hover; @btn-danger-bg-hover; @btn-danger-border-hover);
+}
+
+/**
+@name Social Button Variants
+@unique_id social-button-variants
+@description Buttons for Logging in with Facebook or Google. They have to be used as a block and large button.
+
+@markup
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <a href="#" class="btn btn--primary btn--lg btn--block btn--google">Login with Google</a>
+      <a href="#" class="btn btn--primary btn--lg btn--block btn--facebook">Login with Facebook</a>
+    </div>      
+  </div>
+</div>
+*/ 
+
+.btn--facebook,
+.btn--google {
+  position: relative;
+  max-width: 450px;
+  margin: 0 auto;
+  &:after {
+    font-family: @icon-font-name;
+    position: absolute;
+    color: #fff;
+    font-size: 23px;
+    left: 10px;
+    top: 8px;
+  }
+}
+
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+  20% {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% { transform: scale3d(.9, .9, .9); }
+  60% { transform: scale3d(1.03, 1.03, 1.03); }
+  80% { transform: scale3d(.97, .97, .97); }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.btn--notification {
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  line-height: 34px;
+  font-size: 18px;
+  color: @btn-primary-bg;
+  border: 1px solid @btn-primary-bg;
+  position: relative;
+  &.is-disabled {
+    cursor: @cursor-disabled;
+    pointer-events: none; // Future-proof disabling of clicks
+    color: #CCC;
+    border: 1px solid #CCC;
+  }
+  &.is-unread {
+    background: @btn-primary-bg;
+    color: #FFF;
+    &:after {
+      content: attr(data-unread);
+      background: @brand-danger;
+      color: #fff;
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      border-radius: 100%;
+      font-size: 12px;
+      animation-duration: 1s;
+      animation-delay: .5s;
+      animation-fill-mode: both;
+      animation-name: bounceIn;
+    }
+  }
+}
+
+// Facebook
+.btn--facebook {
+  .button-variant(#FFF; #1961C0; #1961C0; #fff; lighten(#1961C0, 10%); #1961C0);
+  &:after {
+    content: "\f09a";    
+  }
+}
+// Google
+.btn--google {
+  .button-variant(#FFF; #DC2138; #DC2138; #fff; lighten(#DC2138, 10%); #DC2138);
+  &:after {
+    content: "\f1a0";
+  }
+}
+
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.btn--link {
+  color: @link-color;
+  font-weight: normal;
+  border-radius: 0;
+
+  &,
+  &:active,
+  &.active,
+  &[disabled],
+  fieldset[disabled] & {
+    background-color: transparent;
+    .box-shadow(none);
+  }
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: transparent;
+  }
+  &:hover,
+  &:focus {
+    color: @link-hover-color;
+    text-decoration: @link-hover-decoration;
+    background-color: transparent;
+  }
+  &[disabled],
+  fieldset[disabled] & {
+    &:hover,
+    &:focus {
+      color: @btn-link-disabled-color;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn--lg {
+  // line-height: ensure even-numbered height of button next to large input
+  .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+  // Icons
+  [class^="icon-"], [class*=" icon-"] {
+    font-size: 22px;
+    bottom: 0;
+  } 
+}
+.btn--sm {
+  // line-height: ensure proper height of button next to small input
+  .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.btn--xs {
+  .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+
+
+// Block button
+// --------------------------------------------------
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn--block + .btn--block {
+  margin-top: 15px;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}

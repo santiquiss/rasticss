@@ -1,0 +1,18 @@
+<div class="categories-container is-collapsed">
+  
+  <div class="clearfix">
+    <div class="categories-title js-class-toggler" data-element=".categories-container" data-class="is-collapsed">
+      <span class="categories-title__toggle-show">Mostrar áreas</span>
+      <span class="categories-title__toggle-hide">Ocultar áreas</span>
+      Empleos por área
+    </div>
+  </div>
+
+  <ul>
+
+    {{#categories}}
+  	<li><a class="categories__link" href="#" data-count="{{count}}">{{name}}</a></li>
+    {{/categories}}
+
+  </ul>
+</div>

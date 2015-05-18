@@ -1,0 +1,96 @@
+{
+	"categories": [
+    {
+      "name": "Administración",
+      "count": 449
+    },
+    {
+      "name": "Call Center",
+      "count": 160
+    },
+    {
+      "name": "Comercio Exterior",
+      "count": 19
+    },
+    {
+      "name": "Comunicación",
+      "count": 15
+    },
+    {
+      "name": "Construcción",
+      "count": 29
+    },
+    {
+      "name": "Diseño",
+      "count": 15
+    },
+    {
+      "name": "Educación",
+      "count": 30
+    },
+    {
+      "name": "Finanzas",
+      "count": 68
+    },
+    {
+      "name": "Gastronomía y Turismo",
+      "count": 999
+    },
+    {
+      "name": "Gerencia",
+      "count": 12
+    },
+    {
+      "name": "Ingeniería",
+      "count": 33
+    },
+    {
+      "name": "Legales",
+      "count": 76
+    },
+    {
+      "name": "Logística",
+      "count": 89
+    },
+    {
+      "name": "Marketing",
+      "count": 95
+    },
+    {
+      "name": "Medicina",
+      "count": 11
+    },
+    {
+      "name": "Minería",
+      "count": 8
+    },
+    {
+      "name": "Oficios",
+      "count": 153
+    },
+    {
+      "name": "Producción",
+      "count": 74
+    },
+    {
+      "name": "RRHH",
+      "count": 57
+    },
+    {
+      "name": "Secretaria",
+      "count": 86
+    },
+    {
+      "name": "Seguros",
+      "count": 42
+    },
+    {
+      "name": "Tecnología",
+      "count": 49
+    },
+    {
+      "name": "Ventas",
+      "count": 92
+    }
+  ]
+}

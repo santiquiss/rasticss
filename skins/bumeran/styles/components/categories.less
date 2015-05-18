@@ -1,0 +1,175 @@
+/**
+@name Categories
+@unique_id categories
+@description Shows a list of elements and a number on the side. Features a toggler for showing / hiding the element on smaller screens
+@markup
+<!-- Works best on a smaller container -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-3">
+
+      <!-- Starts here -->
+      <div class="categories-container is-collapsed">
+        <div class="clearfix">
+          <div class="categories-title js-class-toggler" data-element=".categories-container" data-class="is-collapsed">
+            <span class="categories-title__toggle-show">Mostrar áreas</span>
+            <span class="categories-title__toggle-hide">Ocultar áreas</span>
+            Empleos por área
+          </div>
+        </div>
+        <ul>
+          <li><a class="categories__link" href="#" data-count="449">Administración</a></li>
+          <li><a class="categories__link" href="#" data-count="160">Call Center</a></li>
+          <li><a class="categories__link" href="#" data-count="19">Comercio Exterior</a></li>
+          <li><a class="categories__link" href="#" data-count="15">Comunicación</a></li>
+          <li><a class="categories__link" href="#" data-count="29">Construcción</a></li>
+          <li><a class="categories__link" href="#" data-count="15">Diseño</a></li>
+          <li><a class="categories__link" href="#" data-count="30">Educación</a></li>
+          <li><a class="categories__link" href="#" data-count="68">Finanzas</a></li>
+          <li><a class="categories__link" href="#" data-count="999">Gastronomía y Turismo</a></li>
+          <li><a class="categories__link" href="#" data-count="12">Gerencia</a></li>
+          <li><a class="categories__link" href="#" data-count="33">Ingeniería</a></li>
+          <li><a class="categories__link" href="#" data-count="76">Legales</a></li>
+          <li><a class="categories__link" href="#" data-count="89">Logística</a></li>
+          <li><a class="categories__link" href="#" data-count="95">Marketing</a></li>
+          <li><a class="categories__link" href="#" data-count="11">Medicina</a></li>
+          <li><a class="categories__link" href="#" data-count="8">Minería</a></li>
+          <li><a class="categories__link" href="#" data-count="153">Oficios</a></li>
+          <li><a class="categories__link" href="#" data-count="74">Producción</a></li>
+          <li><a class="categories__link" href="#" data-count="57">RRHH</a></li>
+          <li><a class="categories__link" href="#" data-count="86">Secretaria</a></li>
+          <li><a class="categories__link" href="#" data-count="42">Seguros</a></li>
+          <li><a class="categories__link" href="#" data-count="49">Tecnología</a></li>
+          <li><a class="categories__link" href="#" data-count="92">Ventas</a></li>
+        </ul>
+      </div>
+      <!-- Ends here -->
+
+    </div>
+  </div>
+</div>
+*/
+
+
+.categories-container {
+	padding: 10px 15px 12px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+  ul {
+    list-style: none;
+    padding: 10px 0 5px;
+    margin-bottom: 0;
+    @media (min-width: @screen-sm-min) {
+      column-count: 2;
+      column-gap: 30px;
+    }
+    @media (min-width: @screen-md-min) {
+      column-count: 1;
+      .is-collapsed & {
+        display: block;
+      }
+    }
+  }
+  &.is-collapsed ul {
+    display: none;
+    @media (min-width: @screen-md-min) { display: block; }
+  }
+}
+.categories-title {
+  font-size: 18px;
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+  color: #000;
+  font-weight: 500;
+  &:after {
+    content: "\e601";
+    font-family: @icon-font-name;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 22px;
+    line-height: 20px;
+    top: 50%;
+    left: -4px;
+    margin-top: -10px;
+  }
+  .is-collapsed & {
+    @media (min-width: @screen-md-min) { color: #000; }
+    &:after {
+      content: "\e603";
+    }
+  }
+  @media (min-width: @screen-md-min) {
+    padding-left: 0;
+    cursor: auto;
+    &:after {
+      display: none;
+    }
+  }
+}
+.categories-title__toggle-show,
+.categories-title__toggle-hide {
+  float: right;
+  color: @link-color;
+  font-size: 14px;
+  line-height: 24px;
+  @media (min-width: @screen-md-min) {
+    display: none;
+  }
+}
+.categories-title__toggle-show {
+  display: none;
+  .is-collapsed & {
+    display: block;
+    @media (min-width: @screen-md-min) { display: none; }
+  }
+}
+.categories-title__toggle-hide {
+  .is-collapsed & {
+    display: none;
+  }
+}
+.categories__link {
+  padding: 7px 50px 3px 0;
+  border-bottom: 1px solid #eee;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.1em;
+  display: block;
+  position: relative;
+  li:last-child & {
+    border-bottom: none;
+  }
+  @media (min-width: @screen-md-min) {
+    margin: 0 -15px;
+    padding: 4px 50px 4px 15px;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+  &:after {
+    content: attr(data-count);
+    font-size: 18px;
+    color: #333;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    font-weight: 300;
+    @media (min-width: @screen-md-min) {
+      right: 15px;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+    @media (min-width: @screen-md-min) {
+      #gradient .horizontal(rgba(204,204,204,.2),rgba(204,204,204,0),50%,100%);
+      &:after {
+        color: #000;
+        font-weight: 400;
+      }
+    }
+  }
+}

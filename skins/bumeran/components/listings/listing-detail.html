@@ -1,0 +1,43 @@
+ <div class="listing-detail-container">
+
+  <h1 class="listing-detail__title">{{title}}</h1>
+
+  {{#company}}
+  <img class="listing-detail__company-logo" src="{{logoUrl}}">
+  <h2 class="listing-detail__company-name">
+    <a href="#">{{name}}</a>
+  </h2>
+  {{/company}}
+
+  <table class="listing-detail__info-table">
+    <tbody>
+      {{#listingData}}
+      <tr>
+        <th>{{title}}</th>
+        <td>{{value}}</td>
+      </tr>
+      {{/listingData}}
+    </tbody>
+  </table>
+
+  <div class="listing-detail__info-table-title">Requisitos para postularse</div>
+
+  <table class="listing-detail__info-table">
+    <tbody>
+      {{#listingRequirements}}
+      <tr>
+        <th>{{title}}</th>
+        <td>{{value}}</td>
+      </tr>
+      {{/listingRequirements}}
+    </tbody>
+  </table>
+
+  <div class="listing-detail__description">
+  {{{description}}} 
+  </div>
+
+  <div class="listing-detail__cta-container">
+    <a href="#" class="btn btn--primary btn--lg btn--block">Postularme</a>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+{
+	"title" : "Coordinador de Seguridad e Higiene",
+	"company" : {
+		"name" : "Coca Cola Femsa de Argentina",
+		"logoUrl" : "http://www.bumeran.com.ar/portal/img/empresas/0/0/0/0/1/7/8/5/3/0/logoMainPic_178530.jpg"
+	},
+  "listingData" : [
+    {
+      "title" : "Publicado",
+      "value" : "18/02/15"
+    },
+    {
+      "title" : "Área",
+      "value" : "Programación"
+    },
+    {
+      "title" : "Tipo de puesto",
+      "value" : "Full-time"
+    },
+    {
+      "title" : "Lugar de trabajo",
+      "value" : "Capital Federal, Buenos Aires"
+    }
+  ],
+  "listingRequirements" : [
+    {
+      "title" : "Nivel educativo",
+      "value" : "Universitario completo",
+      "excluding" : true,
+      "userMeets" : true
+    },
+    {
+      "title" : "Residencia",
+      "value" : "Capital Federal, Bs As",
+      "excluding" : true,
+      "userMeets" : true
+    }
+  ],
+  "description" : "DHL Global Forwarding Argentina se encuentra en la búsqueda de comerciales para sumar a su equipo de Marketing & Sales.<br>Buscamos gente con ganas de desarrollar y profundizar sus habilidades comerciales en una empresa líder mundial.<br>Sus principales responsabilidades serán:<br>Búsqueda y desarrollo de nuevos clientes<br>Mantenimiento y fidelización de cuentas<br>Gestión comercial integral<br>Requisitos:<br>Profesionales de Comercio Exterior y afines<br>Sólida experiencia previa en desarrollo comercial, idealmente en Forwarder. <br>Manejo avanzado de inglés (excluyente)<br>Movilidad propia<br>Nos orientamos a personas con marcada orientación al cliente, adaptación al cambio e iniciativa.<br>Se valorará una personalidad con alto dinamismo, energía y excelente trato."
+}

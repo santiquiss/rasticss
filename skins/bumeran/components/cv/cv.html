@@ -1,0 +1,183 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <div class="row">
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="edit-personal-data.html" class="btn btn--default btn--sm mycv__section-edit-btn">Editar</a>
+            <div class="mycv__section-title">Datos personales</div>
+          </div>
+          <div class="mycv__section-body">
+            <table class="mycv__personal-data-table">
+              <thead>
+                <tr>
+                  <th>
+                    <img class="mycv__profile-photo" src="{{photoUrl}}">
+                  </th>
+                  <td>
+                    <div class="mycv__user-name">{{names}} {{lastNames}}</div>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Edad</th>
+                  <td>{{age}} años ({{dateOfBirth}})</td>
+                </tr>
+                <tr>
+                  <th>Estado civil</th>
+                  <td>{{maritalStatus}}</td>
+                </tr>
+                <tr>
+                  <th>Documento</th>
+                  <td>{{documentType}} {{documentNumber}}</td>
+                </tr>
+                <tr>
+                  <th>Tel. principal</th>
+                  <td>{{mainTelephoneNumber}}</td>
+                </tr>
+                <tr>
+                  <th>E-mail</th>
+                  <td>{{email}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="edit-work-experience.html" class="btn btn--default btn--sm mycv__section-edit-btn">Agregar</a>
+            <div class="mycv__section-title">Experiencia Laboral</div>
+          </div>
+          <div class="mycv__section-body">
+
+            {{#workExperiences}}
+            <a href="edit-work-experience.html" class="mycv__timeline-group">
+              <span class="mycv__timeline-end-date">{{dateEnd}}</span>
+              <span class="mycv__timeline-start-date">{{dateStart}}</span>
+              <span class="mycv__timeline-data">
+                <span class="mycv__timeline-title">{{title}}</span>
+                <span class="mycv__timeline-subtitle">{{companyName}}</span>
+                <span class="mycv__timeline-description">{{description}}</span>
+                {{#peopleInCharge}}
+                <span class="mycv__timeline-additional-data"><span class="icon-man"></span> {{peopleInCharge}} personas a cargo</span>
+                {{/peopleInCharge}}
+                {{#ownBudget}}
+                <span class="mycv__timeline-additional-data"><span class="icon-credit"></span> Manejo de presupuesto propio</span>
+                {{/ownBudget}}
+              </span>
+            </a>
+            {{/workExperiences}}
+
+          </div>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="edit-study.html" class="btn btn--default btn--sm mycv__section-edit-btn">Agregar</a>
+            <div class="mycv__section-title">Estudios</div>
+          </div>
+          <div class="mycv__section-body">
+
+            {{#studies}}
+            <a href="edit-study.html" class="mycv__timeline-group">
+              <span class="mycv__timeline-end-date">{{dateEnd}}</span>
+              <span class="mycv__timeline-start-date">{{dateStart}}</span>
+              <span class="mycv__timeline-data">
+                <span class="mycv__timeline-title">{{title}}</span>
+                <span class="mycv__timeline-subtitle">{{institution}}</span>
+              </span>
+            </a>
+            {{/studies}}
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <div class="row">
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="#" class="btn btn--default btn--sm mycv__section-edit-btn">Editar</a>
+            <div class="mycv__section-title">Lugar de Residencia</div>
+          </div>
+          <a href="#" class="mycv__section-body">
+            <span class="mycv__address-container">
+              <span class="mycv__address-street">{{addressStreet}}</span>
+              <span class="mycv__address-locality">{{addressLocality}}</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="edit-language.html" class="btn btn--default btn--sm mycv__section-edit-btn">Agregar</a>
+            <div class="mycv__section-title">Idiomas</div>
+          </div>
+          <div class="mycv__section-body">
+
+            {{#languages}}
+            <a href="edit-language.html" class="mycv__language mycv_language--{{codeName}}">
+              <span class="mycv__language-title">{{name}}</span>
+              <span class="mycv__language-levels">
+                <span class="mycv__language-level">Escrito <strong>{{oralLevel}}</strong></span>
+                <span class="mycv__language-level">Oral <strong>{{writtenLevel}}</strong></span>
+              </span>
+            </a>
+            {{/languages}}
+
+          </div>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="#" class="btn btn--default btn--sm mycv__section-edit-btn">Agregar</a>
+            <div class="mycv__section-title">Conocimientos Adicionales</div>
+          </div>
+          <div class="mycv__section-body">
+
+            {{#additionalKnowledges}}
+            <a href="#" class="mycv_additional-knowledge">
+              <span class="mycv__section-body-title">
+                {{title}}
+              </span>
+              <span class="mycv__section-body-text">
+                {{description}}
+              </span>
+            </a>
+            {{/additionalKnowledges}}
+
+          </div>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="#" class="btn btn--default btn--sm mycv__section-edit-btn">Editar</a>
+            <div class="mycv__section-title">Presentación / Bio</div>
+          </div>
+          <a  href="#" class="mycv__section-body">
+            <span class="mycv__section-body-text">
+              {{bio}}
+            </span>
+          </a>
+        </div>
+
+        <div class="col-xs-12">
+          <div class="mycv__section-header">
+            <a href="#" class="btn btn--default btn--sm mycv__section-edit-btn">Agregar</a>
+            <div class="mycv__section-title">Referencias</div>
+          </div>
+          <a href="#" class="mycv__section-body mycv__section-body--empty">
+            No hay referencias cargadas, <strong>agregar</strong>
+          </a>
+        </div>
+
+    
+      </div>
+    </div>
+  </div>
+</div>
